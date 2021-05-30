@@ -1,0 +1,73 @@
+{
+    "servers": {
+        "default": "q3msk meet",
+        "web": [
+            {
+                "name": "q3msk meet",
+                "command": "+exec +connect meat.q3msk.ru:27960",
+                "index":0
+            },
+            {
+                "name": "q3msk freeze public",
+                "command": "+exec +connect q3msk.ru:27977",
+                "index":6
+            },
+            {
+                "name": "AIM 27964",
+                "command": "+exec +connect q3msk.ru:27964",
+                "index":5
+            },
+            {
+                "name": "AIM 55555",
+                "command": "+exec +connect n2.q3msk.ru:55555"
+            },
+            {
+                "name": "TRAINING",
+                "command": "+exec +connect n2.q3msk.ru:29000",
+                "index":18
+            }
+        ],
+        "local": [
+            {
+                "name": "FFA",
+                "default": false,
+                "command": "+set fs_game osp +set g_gametype 0 +set +exec osp_ffa.cfg"
+            },
+            {
+                "name": "1v1",
+                "default": false,
+                "command": "+set fs_game osp +set g_gametype 1 +set +exec osp_ffa.cfg"
+            },
+            {
+                "name": "TDM",
+                "default": false,
+                "command": "+set fs_game osp +set g_gametype 3 +set +exec osp_ffa.cfg"
+            },
+            {
+                "name": "CTF",
+                "default": false,
+                "command": "+set fs_game osp +set g_gametype 5 +set +exec osp_ctf.cfg"
+            },
+            {
+                "name": "CA",
+                "default": false,
+                "command": "+set fs_game osp +set g_gametype 5 +set +exec osp_ffa.cfg"
+            }
+        ]
+    },
+    "maps": {
+        "default": "map2",
+        "fav": [
+            "map1",
+            "map2"
+        ],
+        "all": [
+            "map1",
+            "map2",
+            "map3",
+            "map4",
+            "map5"
+        ]
+    },
+    "clients": "xq3e"
+}		

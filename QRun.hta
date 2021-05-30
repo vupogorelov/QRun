@@ -1,0 +1,389 @@
+<html lang="en">
+
+<head>
+	<HTA:APPLICATION 
+		ID="QRun" 
+		VERSION="1.0"
+		APPLICATIONNAME="QRun" 
+		SCROLL="no" 
+		SINGLEINSTANCE="yes" 
+		SELECTION="no" 
+		CONTEXTMENU="no"
+		WINDOWSTATE="maximize"
+		MAXIMIZEBUTTON = "no"
+		MINIMIZEBUTTON = "yes"
+		NOWRAP/>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>QRun</title>
+
+		<!--mdl hosted-->
+		<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">		
+		<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+		<script src="https://rawgit.com/MEYVN-digital/mdl-selectfield/master/mdl-selectfield.min.js"></script> -->
+
+		<!--mdl local-->
+		<link rel="stylesheet" href="./QRun/mdl/material.min.css">
+		<script src="./QRun/mdl/material.min.js"></script>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+		<!--other-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://www.gstatic.com/charts/loader.js"></script><!-- для отображения графиков -->
+
+		<!--local data-->
+		<link rel="stylesheet" href="./QRun/style.css">
+		<script type="text/javascript" src="./QRun/WSH.js"></script><!-- functions lib for work with local files and OS -->
+		<script type="text/javascript" src="./QRun/index.js"></script><!-- process all events and actions here-->
+
+</head>
+
+<style>
+</style>
+
+<script type="text/javascript">
+	// '*********************************************************************************************
+	// '*  расположение и размер окна
+	// '*********************************************************************************************
+
+	var winWidth=1000; // ширина
+	var winHeight=800; // высота
+	window.resizeTo(winWidth, winHeight);
+
+	// окно в центр экрана
+	var winPosX=screen.width/2-winWidth/2;
+	var winPosY=screen.height/2-winHeight/2;
+	window.moveTo(winPosX, winPosY);
+</script>
+
+<body>
+	<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+
+		<!-- Верхняя статичная панель и меню справа -->
+		<header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+			<div class="mdl-layout__header-row">
+				<!-- Текст в верхней панели -->
+				<span id="header_panel" class="mdl-layout-title">Старт</span>
+				<div class="mdl-layout-spacer"></div>
+				<!-- Меню 3 точки справа -->
+				<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
+					<i class="material-icons">more_vert</i>
+				</button>
+				<!-- Сами пункты меню -->
+				<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
+					<li class="mdl-menu__item">О программе</li>
+					<li class="mdl-menu__item">Контакты</li>
+					<li class="mdl-menu__item">Авторские права</li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- Панель выдвижная слева -->
+		<div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+			<nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
+				<a id="drawer_Start" class="mdl-navigation__link" href="#"><i
+						class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Старт</a>
+				<a id="drawer_Configs" class="mdl-navigation__link" href="#"><i
+						class="mdl-color-text--blue-grey-400 material-icons"
+						role="presentation">description</i>Конфиги</a>
+				<a id="drawer_Progress" class="mdl-navigation__link" href="#"><i
+						class="mdl-color-text--blue-grey-400 material-icons"
+						role="presentation">timeline</i>Прогресс</a>
+				<a id="drawer_Maps" class="mdl-navigation__link" href="#"><i
+						class="mdl-color-text--blue-grey-400 material-icons" role="presentation">room</i>Карты</a>
+				<a id="drawer_Settings" class="mdl-navigation__link" href="#"><i
+						class="mdl-color-text--blue-grey-400 material-icons"
+						role="presentation">settings</i>Настройки</a>
+				<a id="drawer_AboutApp" class="mdl-navigation__link" href="#"><i
+						class="mdl-color-text--blue-grey-400 material-icons" role="presentation">info</i>О программе</a>
+			</nav>
+		</div>
+
+
+		<main class="mdl-layout__content mdl-color--grey-100">
+			<!-- Место для динамического содержимого - все показывать тут -->
+			<div id="main_box" class="sub_content_box">
+			
+				<!-- =================================================================== -->
+				<div id="box_Start" class="sub_content_box">
+					<div class="mdl-grid">
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<div class="mdl-card__title"><h2 class="mdl-card__title-text">Web servers</h2></div>
+							<!--RUN DINAMICS BUTTONS EXE -->
+							<ul id="webServersList" class="demo-list-two mdl-list">
+								<!-- DINAMIC content gose here. Watch index.js -->
+							</ul>
+						</div>
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<div class="mdl-card__title"><h2 class="mdl-card__title-text">Local servers</h2></div>
+							<ul id="localServersList" class="demo-list-two mdl-list">
+								<!-- DINAMIC content gose here. Watch index.js -->
+							</ul>
+						</div>
+					</div>
+					<!-- кнопка добавления новой команды -->
+					<button id="new_command_button"
+						class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						<i class="material-icons">add</i>
+					</button>
+				</div>
+			
+				<!-- =================================================================== -->
+				<div id="box_Configs" class="sub_content_box">
+					<div class="mdl-grid">
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<li class="mdl-list__item mdl-list__item--one-line">
+								<span class="mdl-list__item-primary-content">
+									<span>aim.cfg</span>
+								</span>
+							</li>
+						</div>
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+
+						</div>
+					</div>
+					<!-- кнопка добавления новой команды -->
+					<button id="reload_configs"
+						class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						<i class="material-icons">update</i>
+					</button>
+				</div>
+
+				<!-- =================================================================== -->
+				<div id="box_Maps" class="sub_content_box">
+
+					<div class="mdl-grid">
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<figure class="mdl-card__media">
+								<img src="http://q3msk.ru/monitor/images/mapshots/Custom_Maps/Miscellaneous/q3dm7.jpg"
+									alt="" />
+							</figure>
+							<div class="mdl-card__title">
+								<h1 class="mdl-card__title-text">Meet</h1>
+							</div>
+							<div class="mdl-card__supporting-text">
+								<p>Играют ывывафывафы фывафыва фывафыаы ыфвафывафы ыфваыфвафыв фыафываыфва фывафыва ыф
+									ыфвафыва</p>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Играть</a>
+								<div class="mdl-layout-spacer"></div>
+								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">favorite</i></button> -->
+								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">share</i></button> -->
+							</div>
+						</div>
+
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<figure class="mdl-card__media">
+								<img src="http://q3msk.ru/monitor/images/mapshots/Custom_Maps/Miscellaneous/q3dm13.jpg"
+									alt="" />
+							</figure>
+							<div class="mdl-card__title">
+								<h1 class="mdl-card__title-text">Unfreeze</h1>
+							</div>
+							<div class="mdl-card__supporting-text">
+								<p>Играют ывывафывафы фывафыва фывафыаы ыфвафывафы ыфваыфвафыв фыафываыфва фывафыва ыф
+									ыфвафыва</p>
+							</div>
+							<div class="mdl-card__actions mdl-card--border">
+								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Играть</a>
+								<div class="mdl-layout-spacer"></div>
+								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">favorite</i></button> -->
+								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">share</i></button> -->
+							</div>
+						</div>
+						<!-- кнопка Обновления данных -->
+						<button id="refresh-maps-button"
+							class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+							<i class="material-icons">update</i>
+						</button>
+					</div>
+
+				</div>
+
+				<!-- =================================================================== -->
+				<div id="box_Progress" class="sub_content_box">
+					<div class="mdl-grid">
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<div id="myChart1" style="border: 1px solid #ccc"></div>
+						</div>
+
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<div id="myChart2" style="border: 1px solid #ccc"></div>
+						</div>
+					</div>
+					<!-- кнопка добавления новой команды -->
+					<button id="reload_stat"
+						class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						<i class="material-icons">update</i>
+					</button>
+				</div>
+
+				<!-- =================================================================== -->
+				<div id="box_Settings" class="sub_content_box">
+					<div class="mdl-grid">
+						<div class="mdl-card mdl-cell mdl-cell--10-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<ul class="demo-list-control mdl-list">
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-avatar">done</i>
+										<span>Bryan Cranston</span>
+										<span class="mdl-list__item-text-body">
+											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+											for playing Hal in Malcom in the Middle.
+										</span>
+									</span>
+									<span class="mdl-list__item-secondary-content">
+										<span class="mdl-list__item-secondary-action">
+											<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+												for="list-checkbox-1">
+												<input type="checkbox" id="list-checkbox-1" class="mdl-checkbox__input"
+													checked />
+											</label>
+										</span>
+									</span>
+								</li>
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-avatar">label</i>
+										<span>Bryan Cranston</span>
+										<span class="mdl-list__item-text-body">
+											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+											for playing Hal in Malcom in the Middle.
+										</span>
+									</span>
+									<span class="mdl-list__item-secondary-content">
+										<span class="mdl-list__item-secondary-action">
+											<label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect"
+												for="list-checkbox-2">
+												<input type="checkbox" id="list-checkbox-2" class="mdl-checkbox__input"
+													checked />
+											</label>
+										</span>
+									</span>
+								</li>
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-avatar">room</i>
+										<span>Bryan Cranston</span>
+										<span class="mdl-list__item-text-body">
+											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+											for playing Hal in Malcom in the Middle.
+										</span>
+									</span>
+									<span class="mdl-list__item-secondary-content">
+										<span class="mdl-list__item-secondary-action">
+											<label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect"
+												for="list-option-1">
+												<input type="radio" id="list-option-1" class="mdl-radio__button"
+													name="options" value="1" checked />
+											</label>
+										</span>
+									</span>
+								</li>
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-avatar">settings</i>
+										<span>Bryan Cranston</span>
+										<span class="mdl-list__item-text-body">
+											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+											for playing Hal in Malcom in the Middle.
+										</span>
+									</span>
+									<span class="mdl-list__item-secondary-content">
+										<span class="mdl-list__item-secondary-action">
+											<label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect"
+												for="list-option-2">
+												<input type="radio" id="list-option-2" class="mdl-radio__button"
+													name="options" value="1" checked />
+											</label>
+										</span>
+									</span>
+								</li>
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-avatar">person</i>
+										<span>Bryan Cranston</span>
+										<span class="mdl-list__item-text-body">
+											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+											for playing Hal in Malcom in the Middle.
+										</span>
+									</span>
+									<span class="mdl-list__item-secondary-content">
+										<span class="mdl-list__item-secondary-action">
+											<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+												for="list-switch-1">
+												<input type="checkbox" id="list-switch-1" class="mdl-switch__input"
+													checked />
+											</label>
+										</span>
+									</span>
+								</li>
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-avatar">person</i>
+										<span>Bryan Cranston</span>
+										<span class="mdl-list__item-text-body">
+											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+											for playing Hal in Malcom in the Middle.
+										</span>
+									</span>
+									<span class="mdl-list__item-secondary-content">
+										<span class="mdl-list__item-secondary-action">
+											<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+												for="list-switch-2">
+												<input type="checkbox" id="list-switch-2" class="mdl-switch__input"
+													checked />
+											</label>
+										</span>
+									</span>
+								</li>
+								<li class="mdl-list__item mdl-list__item--three-line">
+									<span class="mdl-list__item-primary-content">
+										<i class="material-icons mdl-list__item-avatar">person</i>
+										<span>Bryan Cranston</span>
+										<span class="mdl-list__item-text-body">
+											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
+											for playing Hal in Malcom in the Middle.
+										</span>
+									</span>
+									<span class="mdl-list__item-secondary-content">
+										<span class="mdl-list__item-secondary-action">
+											<label class="mdl-switch mdl-js-switch mdl-js-ripple-effect"
+												for="list-switch-3">
+												<input type="checkbox" id="list-switch-3" class="mdl-switch__input"
+													checked />
+											</label>
+										</span>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<!-- =================================================================== -->
+				<div id="box_AboutApp" class="sub_content_box">
+					<div class="mdl-grid">
+
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							dfgdsfgd
+						</div>
+						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
+							<!-- START GFX =========================   -->
+							<canvas id="canvas" width="300" height="350"></canvas>
+							<!-- END GFX =========================== -->
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+
+</html>
