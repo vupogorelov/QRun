@@ -90,7 +90,7 @@ $(function(){
 	// переход на Конфиги
 	$("#drawer_Configs").click(function(event){
 		$("#main_box").children().hide();
-		$('span#header_panel').text('Конфиги');
+		$('span#header_panel').text('Конфиг');
 		$("#box_Configs").show();
 	});
 	
@@ -136,7 +136,23 @@ $(function(){
 			
         	// round buttons in low right corner
 			case "new_command_button":
-
+				
+				$.ajax('http://n2.q3msk.ru/', {
+					success: function (data) {
+						var ret = $(data).find('.playersTitle')
+						for (n in config.servers.web) {
+							$('#srvPlayers' + n).text('Updating...');
+							if (config.servers.web[n].hasOwnProperty('index')) {
+								$('#srvPlayers' + n).text(ret[config.servers.web[n].index].innerHTML);
+							} else {
+								$('#srvPlayers' + n).text('---');
+							}
+						}
+					},
+					error: function () {
+						alert('Не удалось спарсить игроков');
+					}
+				})
         		break
         	case "reload_stat":
         		window.alert($(this).attr('id'));
@@ -157,8 +173,6 @@ $(function(){
 	});
 
 });
-	
-
 
 // '*********************************************************************************************
 // '*  Показываем графики

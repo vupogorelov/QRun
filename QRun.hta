@@ -1,45 +1,61 @@
 <html lang="en">
 
 <head>
-	<HTA:APPLICATION 
-		ID="QRun" 
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>QRun</title>
+
+	<HTA:APPLICATION
+		APPLICATIONNAME="QRun"
+		ID="QRun"
 		VERSION="1.0"
-		APPLICATIONNAME="QRun" 
-		SCROLL="no" 
-		SINGLEINSTANCE="yes" 
-		SELECTION="no" 
-		CONTEXTMENU="no"
-		WINDOWSTATE="maximize"
-		MAXIMIZEBUTTON = "no"
+		SCROLL="no"
+		BORDER="thin"
+		BORDERSTYLE="normal"
+		INNERBORDER="no"
+		MAXIMIZEBUTTON = "yes"
 		MINIMIZEBUTTON = "yes"
-		NOWRAP/>
+		SELECTION="no"
+		CONTEXTMENU="no"
+		NOWRAP
+		SINGLEINSTANCE="yes"/>
 
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!--mdl hosted-->
+	<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">		
+	<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="https://rawgit.com/MEYVN-digital/mdl-selectfield/master/mdl-selectfield.min.js"></script> -->
 
-		<title>QRun</title>
+	<!--mdl local-->
+	<link rel="stylesheet" href="./QRun/mdl/material.min.css">
+	<script src="./QRun/mdl/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
-		<!--mdl hosted-->
-		<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.cyan-light_blue.min.css">		
-		<script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-		<script src="https://rawgit.com/MEYVN-digital/mdl-selectfield/master/mdl-selectfield.min.js"></script> -->
+	<!--other-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://www.gstatic.com/charts/loader.js"></script>
 
-		<!--mdl local-->
-		<link rel="stylesheet" href="./QRun/mdl/material.min.css">
-		<script src="./QRun/mdl/material.min.js"></script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<!--local data-->
+	<link rel="stylesheet" href="./QRun/style.css">
+	<script type="text/javascript" src="./QRun/WSH.js"></script><!-- functions lib for work with local files and OS -->
+	<script type="text/javascript" src="./QRun/index.js"></script><!-- process all events and actions here-->
 
-		<!--other-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-		<script src="https://www.gstatic.com/charts/loader.js"></script><!-- для отображения графиков -->
+	<!-- встроенный редактор кода -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/themes/prism-twilight.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/components/prism-core.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
+	<script type="module" id="code">
+		import { CodeJar } from "https://medv.io/codejar/codejar.js"
 
-		<!--local data-->
-		<link rel="stylesheet" href="./QRun/style.css">
-		<script type="text/javascript" src="./QRun/WSH.js"></script><!-- functions lib for work with local files and OS -->
-		<script type="text/javascript" src="./QRun/index.js"></script><!-- process all events and actions here-->
-
+		const jar = new CodeJar(
+			document.querySelector(".editor"),
+			Prism.highlightElement
+		)
+	</script>
+	
+	
 </head>
 
 <style>
@@ -56,7 +72,7 @@
 
 	// окно в центр экрана
 	var winPosX=screen.width/2-winWidth/2;
-	var winPosY=screen.height/2-winHeight/2;
+	var winPosY=(screen.height/2-winHeight/2)*0.7;
 	window.moveTo(winPosX, winPosY);
 </script>
 
@@ -103,17 +119,53 @@
 			</nav>
 		</div>
 
-
 		<main class="mdl-layout__content mdl-color--grey-100">
 			<!-- Место для динамического содержимого - все показывать тут -->
 			<div id="main_box" class="sub_content_box">
 			
 				<!-- =================================================================== -->
 				<div id="box_Start" class="sub_content_box">
+					<div>
+						<!--select -->
+						<!-- TODO сделать панель настроек клиента, ника/аноним, карта, боты -->
+						<!-- TODO #1 MDL has no alternative for HTML "Select" element. Find solution. -->
+						
+						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+							<input class="mdl-textfield__input" type="text" id="selectClient">
+							<label class="mdl-textfield__label" for="selectClient">Client</label>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectClient">
+								<li class="mdl-menu__item">xq3e</li>
+								<li class="mdl-menu__item">xqe3 sens fix</li>
+								<li class="mdl-menu__item">quake3e</li>
+								<!-- DINAMIC content gose here. Watch index.js -->
+							</ul>
+						</div>
+						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+							<input class="mdl-textfield__input" type="text" id="selectName">
+							<label class="mdl-textfield__label" for="selectName">Nickname</label>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectName">
+								<li class="mdl-menu__item">1</li>
+								<li class="mdl-menu__item">2</li>
+								<li class="mdl-menu__item">3</li>
+								<!-- DINAMIC content gose here. Watch index.js -->
+							</ul>
+						</div>
+						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+							<input class="mdl-textfield__input" type="text" id="selectMap">
+							<label class="mdl-textfield__label" for="selectMap">Fav map</label>
+							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectMap">
+								<li class="mdl-menu__item">Map 1</li>
+								<li class="mdl-menu__item">Map 2</li>
+								<li class="mdl-menu__item">Map 3</li>
+								<!-- DINAMIC content gose here. Watch index.js -->
+							</ul>
+						</div>
+						
+					</div>
 					<div class="mdl-grid">
+						
 						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
 							<div class="mdl-card__title"><h2 class="mdl-card__title-text">Web servers</h2></div>
-							<!--RUN DINAMICS BUTTONS EXE -->
 							<ul id="webServersList" class="demo-list-two mdl-list">
 								<!-- DINAMIC content gose here. Watch index.js -->
 							</ul>
@@ -128,23 +180,29 @@
 					<!-- кнопка добавления новой команды -->
 					<button id="new_command_button"
 						class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-						<i class="material-icons">add</i>
+						<i class="material-icons">update</i>
 					</button>
+					<div class="mdl-tooltip" for="new_command_button">Update players online</div>
 				</div>
 			
 				<!-- =================================================================== -->
 				<div id="box_Configs" class="sub_content_box">
 					<div class="mdl-grid">
-						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-							<li class="mdl-list__item mdl-list__item--one-line">
-								<span class="mdl-list__item-primary-content">
-									<span>aim.cfg</span>
-								</span>
-							</li>
-						</div>
-						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-
-						</div>
+						
+							
+							<!-- TODO встроенный редакто конфига с подсветкой синтаксиса -->
+							<div class="editor language-js">function fibonacci(n) {
+								let num;
+							
+								if (n >= 2) {
+									num = fibonacci(n - 1) + fibonacci(n - 2);
+								} else {
+									num = n
+								}
+							
+								return num;
+							}</div>	
+						
 					</div>
 					<!-- кнопка добавления новой команды -->
 					<button id="reload_configs"
