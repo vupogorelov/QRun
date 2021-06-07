@@ -48,11 +48,7 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.20.0/plugins/autoloader/prism-autoloader.min.js"></script>
 	<script type="module" id="code">
 		import { CodeJar } from "https://medv.io/codejar/codejar.js"
-
-		const jar = new CodeJar(
-			document.querySelector(".editor"),
-			Prism.highlightElement
-		)
+		var jar = new CodeJar(document.querySelector(".cfgEditor"),Prism.highlightElement);
 	</script>
 	
 	
@@ -77,10 +73,10 @@
 </script>
 
 <body>
-	<div class="demo-layout mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
 
 		<!-- Верхняя статичная панель и меню справа -->
-		<header class="demo-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600">
+		<header class="mdl-layout__header">
 			<div class="mdl-layout__header-row">
 				<!-- Текст в верхней панели -->
 				<span id="header_panel" class="mdl-layout-title">Старт</span>
@@ -89,7 +85,6 @@
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="hdrbtn">
 					<i class="material-icons">more_vert</i>
 				</button>
-				<!-- Сами пункты меню -->
 				<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="hdrbtn">
 					<li class="mdl-menu__item">О программе</li>
 					<li class="mdl-menu__item">Контакты</li>
@@ -99,113 +94,118 @@
 		</header>
 
 		<!-- Панель выдвижная слева -->
-		<div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
-			<nav class="demo-navigation mdl-navigation mdl-color--blue-grey-800">
-				<a id="drawer_Start" class="mdl-navigation__link" href="#"><i
-						class="mdl-color-text--blue-grey-400 material-icons" role="presentation">home</i>Старт</a>
-				<a id="drawer_Configs" class="mdl-navigation__link" href="#"><i
-						class="mdl-color-text--blue-grey-400 material-icons"
-						role="presentation">description</i>Конфиг</a>
-				<a id="drawer_Progress" class="mdl-navigation__link" href="#"><i
-						class="mdl-color-text--blue-grey-400 material-icons"
-						role="presentation">timeline</i>Прогресс</a>
-				<a id="drawer_Maps" class="mdl-navigation__link" href="#"><i
-						class="mdl-color-text--blue-grey-400 material-icons" role="presentation">room</i>Карты</a>
-				<a id="drawer_Settings" class="mdl-navigation__link" href="#"><i
-						class="mdl-color-text--blue-grey-400 material-icons"
-						role="presentation">settings</i>Настройки</a>
-				<a id="drawer_AboutApp" class="mdl-navigation__link" href="#"><i
-						class="mdl-color-text--blue-grey-400 material-icons" role="presentation">info</i>О программе</a>
+		<div class="mdl-layout__drawer">
+			<nav class="mdl-navigation">
+				<a id="drawer_Start" class="mdl-navigation__link" href="#"><i class="material-icons">home</i> Старт</a>
+				<a id="drawer_Configs" class="mdl-navigation__link" href="#"><i	class="material-icons">description</i> Конфиг</a>
+				<a id="drawer_Progress" class="mdl-navigation__link" href="#"><i class="material-icons">timeline</i> Прогресс</a>
+				<a id="drawer_Maps" class="mdl-navigation__link" href="#"><i class="material-icons">room</i> Карты</a>
+				<a id="drawer_Screenshots" class="mdl-navigation__link" href="#"><i	class="material-icons">image</i> Скриншоты</a>
+				<a id="drawer_Settings" class="mdl-navigation__link" href="#"><i class="material-icons">settings</i> Настройки</a>
+				<a id="drawer_AboutApp" class="mdl-navigation__link" href="#"><i class="material-icons">info</i> О программе</a>
 			</nav>
 		</div>
 
-		<main class="mdl-layout__content mdl-color--grey-100">
+		<main class="mdl-layout__content">
 			<!-- Место для динамического содержимого - все показывать тут -->
 			<div id="main_box" class="sub_content_box">
 			
 				<!-- =================================================================== -->
 				<div id="box_Start" class="sub_content_box">
-					<div class="content-grid mdl-grid">
-						<!--select -->
-						<!-- TODO сделать панель настроек клиента, ника/аноним, карта, боты -->
+					<div>
 						<!-- TODO #1 MDL has no alternative for HTML "Select" element. Find solution. -->
-						
-						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-							<input class="mdl-textfield__input" type="text" id="selectClient">
-							<label class="mdl-textfield__label" for="selectClient">Client</label>
-							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectClient">
-								<li class="mdl-menu__item">xq3e</li>
-								<li class="mdl-menu__item">xqe3 sens fix</li>
-								<li class="mdl-menu__item">quake3e</li>
-								<!-- DINAMIC content gose here. Watch index.js -->
-							</ul>
-						</div>
 					
-						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-							<input class="mdl-textfield__input" type="text" id="selectName">
-							<label class="mdl-textfield__label" for="selectName">Nickname</label>
-							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectName">
-								<li class="mdl-menu__item">1</li>
-								<li class="mdl-menu__item">2</li>
-								<li class="mdl-menu__item">3</li>
+					</div>
+					<div class="mdl-grid">
+						<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+
+							<div class="mdl-card__title">
+								<h3 class="mdl-card__title-text">Web servers</h3>
+								<div class="mdl-layout-spacer"></div>
+								<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="dotsmenuServer">
+									<i class="material-icons">more_vert</i>
+								</button>
+								<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="dotsmenuServer">
+									<li class="mdl-menu__item">Добавить сервер</li>
+									<li class="mdl-menu__item">Обновить игроков</li>
+								</ul>
+							</div>
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<p style="width:150px"><input class="mdl-textfield__input" type="text" id="selectClient"></p>
+								<label class="mdl-textfield__label" for="selectClient">Client</label>
+								<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectClient">
+									<li class="mdl-menu__item">xq3e</li>
+									<li class="mdl-menu__item">xqe3 sens fix</li>
+									<li class="mdl-menu__item">quake3e</li>
+									<!-- DINAMIC content gose here. Watch index.js -->
+								</ul>
+							</div>
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<p style="width:150px"><input class="mdl-textfield__input" type="text" id="selectName"></p>
+								<label class="mdl-textfield__label" for="selectName">Nickname</label>
+								<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectName">
+									<li class="mdl-menu__item">Name 1</li>
+									<li class="mdl-menu__item">Name 2</li>
+									<li class="mdl-menu__item">Name 3</li>
+									<!-- DINAMIC content gose here. Watch index.js -->
+								</ul>
+								
+							</div>
+
+							<!-- cписок серверов -->
+							<ul id="webServersList" class="mdl-list-two mdl-list">
 								<!-- DINAMIC content gose here. Watch index.js -->
 							</ul>
-						</div>
-						<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-							<input class="mdl-textfield__input" type="text" id="selectMap">
-							<label class="mdl-textfield__label" for="selectMap">Fav map</label>
-							<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectMap">
-								<li class="mdl-menu__item">Map 1
-									<img height=50px src="https://interactive-examples.mdn.mozilla.net/media/cc0-images/grapefruit-slice-332-332.jpg">
-								</li>
-								<li class="mdl-menu__item">Map 2</li>
-								<li class="mdl-menu__item">Map 3</li>
-								<!-- DINAMIC content gose here. Watch index.js -->
-							</ul>
-						</div>
-						
-					</div>
-					<div class="content-grid mdl-grid">
-						sssdfgsdfgsdfgsdfgdsfgsdfggsdfg
-					</div>
-					<div class="content-grid mdl-grid">
-	
-						<div class="mdl-row">
 							
-							<div class="mdl-cell">
-								11111111
-							</div>
-							<div class="mdl-cell">
-								22222222
-							</div>
 						</div>
-						<div class="mdl-row">
-						
-							<div class="mdl-cell">
-								3333333333
+						<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+							<div class="mdl-card__title">
+								<h2 class="mdl-card__title-text">Local servers</h2>
+								<div class="mdl-layout-spacer"></div>
+								<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon" id="dotsmenuLocal">
+									<i class="material-icons">more_vert</i>
+								</button>
+								<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right" for="dotsmenuLocal">
+									<li class="mdl-menu__item">Добавить сервер</li>
+									<li class="mdl-menu__item">Обновить список</li>
+								</ul>
 							</div>
-							<div class="mdl-cell">
-								44444444444
+							<div class="mdl-textfield mdl-js-textfield  mdl-textfield--floating-label">
+								<p style="width:150px"><input class="mdl-textfield__input" type="text" id="selectMap"></p>
+								<label class="mdl-textfield__label" for="selectMap">Fav map</label>
+								<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectMap">
+									<li class="mdl-menu__item">Map 1</li>
+									<li class="mdl-menu__item">Map 2</li>
+									<li class="mdl-menu__item">Map 3</li>
+									<!-- DINAMIC content gose here. Watch index.js -->
+								</ul>
 							</div>
-						</div>
-						
-						
-						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-							<div class="mdl-card__title"><h2 class="mdl-card__title-text">Web servers</h2></div>
-							<ul id="webServersList" class="demo-list-two mdl-list">
+							<div class="mdl-textfield mdl-js-textfield  mdl-textfield--floating-label">
+								<p style="width:150px"><input class="mdl-textfield__input" type="text" id="selectBots"></p>
+								<label class="mdl-textfield__label" for="selectBots">Bots</label>
+								<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="selectBots">
+									<li class="mdl-menu__item">bot 1</li>
+									<li class="mdl-menu__item">bot 2</li>
+									<li class="mdl-menu__item">bot 3</li>
+									<!-- DINAMIC content gose here. Watch index.js -->
+								</ul>
+							</div>
+							<ul id="localServersList" class="mdl-list-two mdl-list">
 								<!-- DINAMIC content gose here. Watch index.js -->
 							</ul>
 						</div>
-						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-							<div class="mdl-card__title"><h2 class="mdl-card__title-text">Local servers</h2></div>
-							<ul id="localServersList" class="demo-list-two mdl-list">
-								<!-- DINAMIC content gose here. Watch index.js -->
-							</ul>
+						<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--2dp">
+							<div class="mdl-card__title"><h2 class="mdl-card__title-text">Fast settings</h2></div>
+							<div class="mdl-textfield">
+								<input id="slideSens" class="mdl-slider mdl-js-slider" type="range" min="0" max="5" value="0,65" step="0,01" tabindex="0">
+								<label class="mdl-textfield__label" for="slideSens">Sens</label>
+							</div>
+							
 						</div>
 					</div>
 					<!-- кнопка добавления новой команды -->
 					<button id="new_command_button"
-						class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 						<i class="material-icons">update</i>
 					</button>
 					<div class="mdl-tooltip" for="new_command_button">Update players online</div>
@@ -217,7 +217,8 @@
 						
 							
 							<!-- TODO встроенный редакто конфига с подсветкой синтаксиса -->
-							<div class="editor language-js">function fibonacci(n) {
+							<div id="cfgEditor" class="cfgEditor language-js">
+								function fibonacci(n) {
 								let num;
 							
 								if (n >= 2) {
@@ -232,7 +233,7 @@
 					</div>
 					<!-- кнопка добавления новой команды -->
 					<button id="reload_configs"
-						class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 						<i class="material-icons">update</i>
 					</button>
 				</div>
@@ -241,54 +242,26 @@
 				<div id="box_Maps" class="sub_content_box">
 
 					<div class="mdl-grid">
-						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-							<figure class="mdl-card__media">
-								<img src="http://q3msk.ru/monitor/images/mapshots/Custom_Maps/Miscellaneous/q3dm7.jpg"
-									alt="" />
-							</figure>
-							<div class="mdl-card__title">
-								<h1 class="mdl-card__title-text">Meet</h1>
-							</div>
-							<div class="mdl-card__supporting-text">
-								<p>Играют ывывафывафы фывафыва фывафыаы ыфвафывафы ыфваыфвафыв фыафываыфва фывафыва ыф
-									ыфвафыва</p>
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Играть</a>
-								<div class="mdl-layout-spacer"></div>
-								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">favorite</i></button> -->
-								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">share</i></button> -->
-							</div>
-						</div>
-
-						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-							<figure class="mdl-card__media">
-								<img src="http://q3msk.ru/monitor/images/mapshots/Custom_Maps/Miscellaneous/q3dm13.jpg"
-									alt="" />
-							</figure>
-							<div class="mdl-card__title">
-								<h1 class="mdl-card__title-text">Unfreeze</h1>
-							</div>
-							<div class="mdl-card__supporting-text">
-								<p>Играют ывывафывафы фывафыва фывафыаы ыфвафывафы ыфваыфвафыв фыафываыфва фывафыва ыф
-									ыфвафыва</p>
-							</div>
-							<div class="mdl-card__actions mdl-card--border">
-								<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">Играть</a>
-								<div class="mdl-layout-spacer"></div>
-								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">favorite</i></button> -->
-								<!-- <button class="mdl-button mdl-button--icon mdl-button--colored"><i class="material-icons">share</i></button> -->
-							</div>
-						</div>
+						
 						<!-- кнопка Обновления данных -->
-						<button id="refresh-maps-button"
-							class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						<button id="refresh-maps-button" class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 							<i class="material-icons">update</i>
 						</button>
 					</div>
 
 				</div>
-
+				<!-- =================================================================== -->
+				<div id="box_Screenshots" class="sub_content_box">
+					<div class="mdl-grid">
+						
+							
+						
+					</div>
+					<!-- кнопка добавления новой команды -->
+					<button id="roundBtnScreenshots" class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						<i class="material-icons">update</i>
+					</button>
+				</div>
 				<!-- =================================================================== -->
 				<div id="box_Progress" class="sub_content_box">
 					<div class="mdl-grid">
@@ -302,7 +275,7 @@
 					</div>
 					<!-- кнопка добавления новой команды -->
 					<button id="reload_stat"
-						class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 						<i class="material-icons">update</i>
 					</button>
 				</div>
@@ -311,10 +284,10 @@
 				<div id="box_Settings" class="sub_content_box">
 					<div class="mdl-grid">
 						<div class="mdl-card mdl-cell mdl-cell--10-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-							<ul class="demo-list-control mdl-list">
+							<ul class="mdl-list-control mdl-list">
 								<li class="mdl-list__item mdl-list__item--three-line">
 									<span class="mdl-list__item-primary-content">
-										<i class="material-icons mdl-list__item-avatar">done</i>
+										<i class="material-icons mdl-list__item-avatar mdl-badge mdl-badge--overlap" data-badge="1">done</i>
 										<span>Bryan Cranston</span>
 										<span class="mdl-list__item-text-body">
 											Bryan Cranston played the role of Walter in Breaking Bad. He is also known
@@ -361,7 +334,7 @@
 									</span>
 									<span class="mdl-list__item-secondary-content">
 										<span class="mdl-list__item-secondary-action">
-											<label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect"
+											<label class="mdl-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect"
 												for="list-option-1">
 												<input type="radio" id="list-option-1" class="mdl-radio__button"
 													name="options" value="1" checked />
@@ -380,7 +353,7 @@
 									</span>
 									<span class="mdl-list__item-secondary-content">
 										<span class="mdl-list__item-secondary-action">
-											<label class="demo-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect"
+											<label class="mdl-list-radio mdl-radio mdl-js-radio mdl-js-ripple-effect"
 												for="list-option-2">
 												<input type="radio" id="list-option-2" class="mdl-radio__button"
 													name="options" value="1" checked />
@@ -458,13 +431,11 @@
 							dfgdsfgd
 						</div>
 						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
-							<!-- START GFX =========================   -->
-							<canvas id="canvas" width="300" height="350"></canvas>
-							<!-- END GFX =========================== -->
+							retyertyry
 						</div>
-
 					</div>
 				</div>
+
 			</div>
 		</main>
 	</div>

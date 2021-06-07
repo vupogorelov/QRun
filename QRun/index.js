@@ -32,16 +32,18 @@ $(function () {
 		var data = '<li id="webSrvName' + n + '" class="mdl-list__item mdl-list__item--two-line">';
 			data += '<div class="mdl-tooltip" for="webSrvName' + n + '">' + config.servers.web[n].command + '</div>';
 			data += '<span class="mdl-list__item-primary-content">';
-			data += '<i class="material-icons mdl-list__item-avatar">public</i>';
+			data += '<i id="webSrvName-i' + n + '" class="material-icons mdl-list__item-avatar mdl-badge--overlap" data-badge="">public</i>';
 			data += '<span>' + config.servers.web[n].name + '</span>';
 			data += '<span id="srvPlayers' + n + '" class="mdl-list__item-sub-title">' + 'update players online...' + '</span>';
 			data += '</span>';
 			data += '<span class="mdl-list__item-secondary-content">';
 			data += '<button id="btnRun" cmd="' + config.servers.web[n].command + '" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored"><i class="material-icons">play_circle_outline</i></button>';
-			data += '</span>';
+			data += '</span></li>';
 		$(webServersList).append(data);
 		
 	}
+
+	// <div class="material-icons mdl-list__item-avatar mdl-badge mdl-badge--overlap" data-badge="1">done</div>
 
 	// асинхронно подгружаем игроков онлайн
 	$.ajax('http://n2.q3msk.ru/', {
@@ -49,7 +51,19 @@ $(function () {
 			var ret = $(data).find('.playersTitle')
 			for (n in config.servers.web) {
 				if (config.servers.web[n].hasOwnProperty('index')) {
-					$('#srvPlayers' + n).text(ret[config.servers.web[n].index].innerHTML);
+					var players = ret[config.servers.web[n].index].innerHTML;
+					players = players.split(':')[1].split('/')[0].toString();
+
+					$('#srvPlayers' + n)
+					.text('Players online: '+players)
+					.find('i')
+						.addClass('mdl-badge')
+						.attr('data-badge', players)
+						.text('update');
+					
+					// if(players!==0){
+						
+					// }
 				} else
 				{
 					$('#srvPlayers' + n).text('---');
@@ -100,7 +114,14 @@ $(function(){
 		$('span#header_panel').text('Карты');
 		$("#box_Maps").show();
 	});
-	
+
+	// переход на Скрины
+	$("#drawer_Screenshots").click(function(event){
+		$("#main_box").children().hide();
+		$('span#header_panel').text('Скриншоты');
+		$("#box_Screenshots").show();
+	});
+
 	// Переход на Статистику
 	$("#drawer_Progress").click(function(event){
 		
@@ -169,6 +190,7 @@ $(function(){
 
 	// кнопка справа от каждого сервера - обработка нажатий
 	$(btnRun).click(function(event){
+		
 		runFile(scriptParentDir + '\\xq3e.exe ', $(this).attr('cmd'));
 	});
 
