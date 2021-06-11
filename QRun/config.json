@@ -1,4 +1,7 @@
 {
+    "settings": {
+        "autoexec": true
+    },
     "servers": {
         "default": "q3msk meet",
         "web": [

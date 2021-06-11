@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>QRun</title>
+
+	<HTA:APPLICATION
+		APPLICATIONNAME="QRun"
+		ID="QRun"
+		VERSION="1.0"
+		SCROLL="no" 
+		BORDER="thin" 
+		BORDERSTYLE="normal"
+		INNERBORDER="no" 
+		MAXIMIZEBUTTON="yes" 
+		MINIMIZEBUTTON="yes" 
+		SELECTION="no" 
+		CONTEXTMENU="no" 
+		NOWRAP
+		SINGLEINSTANCE="yes"/>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<style type="text/css" media="screen">
+    #editor { 
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
+</style>
+	
+</head>
+
+
+
+<body>
+	<div id="editor">function foo(items) {
+		var x = "All this is syntax highlighted";
+		return x;
+	}</div>
+	<script src="https://pagecdn.io/lib/ace/1.4.12/ace.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>
+		var editor = ace.edit("editor");
+		editor.setTheme("ace/theme/monokai");
+		editor.session.setMode("ace/mode/javascript");
+	</script>
+	
+</body>
+</html>

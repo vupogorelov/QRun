@@ -1,6 +1,12 @@
-var config = JSON.parse(readFile(scriptDir + '\\config.json').toString());
-var database = JSON.parse(readFile(scriptDir + '\\database.json').toString());
 
+// alert(scriptDir + '\\baseq3\\Autoexec.cfg');
+var config = JSON.parse(readFile(scriptSubDir + '\\config.json').toString());
+var database = JSON.parse(readFile(scriptSubDir + '\\database.json').toString());
+
+var cfgPath = scriptDir + '\\baseq3\\Autoexec.cfg';
+var q3cfg = readFile(cfgPath).toString();
+
+// TODO сохранение в конфиг
 // config.servers.all[1].name = 'qwrqqe';
 // sText = JSON.stringify(config);
 // saveFile(scriptDir + '//config1.json', sText);
@@ -105,6 +111,14 @@ $(function(){
 	$("#drawer_Configs").click(function(event){
 		$("#main_box").children().hide();
 		$('span#header_panel').text('Конфиг');
+
+		// $('#editor').text(q3cfg);
+		var editor = ace.edit("editor");
+		editor.setTheme("ace/theme/github");
+		editor.session.setMode("ace/mode/javascript");
+		editor.setValue(q3cfg);
+		// https://ace.c9.io/#nav=howto
+
 		$("#box_Configs").show();
 	});
 	
@@ -182,7 +196,9 @@ $(function(){
     			window.alert($(this).attr('id'));
     			break
 			case "reload_configs":
-				window.alert($(this).attr('id'));
+				// window.alert(editor.getValue());
+				saveFile(cfgPath, editor.getValue());
+				q3cfg = readFile(cfgPath).toString();
     			break
     		default:
         }

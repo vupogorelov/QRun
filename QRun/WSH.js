@@ -1,12 +1,13 @@
 var objFSO = new ActiveXObject("Scripting.FileSystemObject");
 var objShell = new ActiveXObject("WScript.Shell");
 
-var scriptDir = objShell.CurrentDirectory + '\\QRun';
+var scriptDir = objShell.CurrentDirectory; // + '\\QRun';
+var scriptSubDir = objShell.CurrentDirectory + '\\QRun';
 var scriptParentDir = objFSO.GetParentFolderName(scriptDir);
 
 
 
-// WScript.Echo(scriptDir);
+// WScript.Echo(scriptParentDir + '\n' + scriptDir + '\n' + scriptSubDir + '\n');
 
 // '*********************************************************************************************
 // '*  РАБОТА С ФАЙЛАМИ И ПАПКАМИ
