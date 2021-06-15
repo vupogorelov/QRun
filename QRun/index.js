@@ -114,8 +114,13 @@ $(function(){
 
 		// $('#editor').text(q3cfg);
 		var editor = ace.edit("editor");
-		editor.setTheme("ace/theme/github");
+
+		editor.setTheme("ace/theme/tomorrow_night");
 		editor.session.setMode("ace/mode/javascript");
+
+		var StatusBar = ace.require("ace/ext/statusbar").StatusBar;
+		// var statusBar = new StatusBar(editor, document.getElementById("statusBar"));
+
 		editor.setValue(q3cfg);
 		// https://ace.c9.io/#nav=howto
 
@@ -207,7 +212,7 @@ $(function(){
 	// кнопка справа от каждого сервера - обработка нажатий
 	$(btnRun).click(function(event){
 		
-		runFile(scriptParentDir + '\\xq3e.exe ', $(this).attr('cmd'));
+		runFile(scriptDir + '\\xq3e.exe ', $(this).attr('cmd'));
 	});
 
 });

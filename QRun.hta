@@ -43,9 +43,9 @@
 	<script type="text/javascript" src="./QRun/index.js"></script><!-- process all events and actions here-->
 
 	<!-- ! встроенный редактор кода -->
-	<script src="https://pagecdn.io/lib/ace/1.4.12/ace.min.js" type="text/javascript" charset="utf-8"></script>
-	<script src="https://pagecdn.io/lib/ace/1.4.12/theme-github.min.js"></script>
-	<script src="https://pagecdn.io/lib/ace/1.4.12/theme-github.js"></script>
+	<script src="./QRun/ace/ace.js" type="text/javascript" charset="utf-8"></script>
+	<script src="./QRun/ace/theme-tomorrow_night.js"></script>
+	<script src="./QRun/ace/ext-statusbar.js"></script>
 </head>
 
 <style>
@@ -230,10 +230,45 @@
 				<div id="box_Configs" class="sub_content_box">
 					<div class="mdl-grid">
 						<!-- !встроенный редакто конфига с подсветкой синтаксиса -->
-						<div id="editor">
-							<!-- DINAMIC content gose here. Watch index.js -->
+						<div class="mdl-card mdl-cell mdl-cell--2-col mdl-shadow--2dp">
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<p style="width:100px"><input class="mdl-textfield__input" type="text"
+										id="selectClient"></p>
+								<label class="mdl-textfield__label" for="selectClient">Find</label>
+							</div>
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<p style="width:100px"><input class="mdl-textfield__input" type="text"
+										id="selectClient"></p>
+								<label class="mdl-textfield__label" for="selectClient">Find</label>
+							</div>
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<p style="width:100px"><input class="mdl-textfield__input" type="text"
+										id="selectClient"></p>
+								<label class="mdl-textfield__label" for="selectClient">Find</label>
+							</div>
+							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+								<p style="width:100px"><input class="mdl-textfield__input" type="text"
+										id="selectClient"></p>
+								<label class="mdl-textfield__label" for="selectClient">Find</label>
+							</div>
+							<div class="mdl-textfield mdl-js-textfield">
+								<select class="mdl-textfield__input" id="octane" name="octane">
+									<option class="mdl-menu__item" value="85">85</option>
+									<option class="mdl-menu__item" value="87">87</option>
+									<option class="mdl-menu__item" value="89">89</option>
+									<option class="mdl-menu__item" value="91">91</option>
+									<option class="mdl-menu__item" value="diesel">Diesel</option>
+								</select>
+							</div>
 						</div>
+						<div class="bigcard mdl-card mdl-cell mdl-cell--10-col mdl-shadow--2dp">
+							<div id="editor"">
+								<!-- DINAMIC content gose here. Watch index.js -->
+							</div>
+						</div>
+						
 					</div>
+					
 					<!-- кнопка добавления новой команды -->
 					<button id="reload_configs"
 						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
