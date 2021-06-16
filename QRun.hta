@@ -44,8 +44,7 @@
 
 	<!-- ! встроенный редактор кода -->
 	<script src="./QRun/ace/ace.js" type="text/javascript" charset="utf-8"></script>
-	<script src="./QRun/ace/theme-tomorrow_night.js"></script>
-	<script src="./QRun/ace/ext-statusbar.js"></script>
+	<script src="./QRun/ace/theme/vibrant_ink"></script>
 </head>
 
 <style>
@@ -91,20 +90,19 @@
 		<!-- Панель выдвижная слева -->
 		<div class="mdl-layout__drawer">
 			<nav class="mdl-navigation">
-				<a id="drawer_Start" class="mdl-navigation__link" href="#"><i class="material-icons">home</i> Старт</a>
-				<a id="drawer_Configs" class="mdl-navigation__link" href="#"><i class="material-icons">description</i>
-					Конфиг</a>
-				<a id="drawer_Progress" class="mdl-navigation__link" href="#"><i class="material-icons">timeline</i>
-					Прогресс</a>
-				<a id="drawer_Maps" class="mdl-navigation__link" href="#"><i class="material-icons">room</i> Карты</a>
-				<a id="drawer_Screenshots" class="mdl-navigation__link" href="#"><i class="material-icons">image</i>
-					Скриншоты</a>
-				<a id="drawer_Settings" class="mdl-navigation__link" href="#"><i class="material-icons">settings</i>
-					Настройки</a>
-				<a id="drawer_AboutApp" class="mdl-navigation__link" href="#"><i class="material-icons">info</i> О
-					программе</a>
+				<a id="drawer_Start"       class="mdl-navigation__link" href="#"><i class="material-icons">home</i> Старт</a>
+				<a id="drawer_Configs"     class="mdl-navigation__link" href="#"><i class="material-icons">description</i> Конфиг</a>
+				<a id="drawer_Progress"    class="mdl-navigation__link" href="#"><i class="material-icons">timeline</i> Прогресс</a>
+				<a id="drawer_Maps"        class="mdl-navigation__link" href="#"><i class="material-icons">room</i> Карты</a>
+				<a id="drawer_Screenshots" class="mdl-navigation__link" href="#"><i class="material-icons">image</i>Скриншоты</a>
+				<a id="drawer_Demos"       class="mdl-navigation__link" href="#"><i class="material-icons">movie</i> Демо</a>
+				<a id="drawer_Logs"        class="mdl-navigation__link" href="#"><i class="material-icons">description</i> Логи</a>
+				<a id="drawer_Settings"    class="mdl-navigation__link" href="#"><i class="material-icons">settings</i> Настройки</a>
+				<a id="drawer_AboutApp"    class="mdl-navigation__link" href="#"><i class="material-icons">info</i> О программе</a>
 			</nav>
 		</div>
+		
+		
 
 		<main class="mdl-layout__content">
 			<!-- Место для динамического содержимого - все показывать тут -->
@@ -112,10 +110,6 @@
 
 				<!-- =================================================================== -->
 				<div id="box_Start" class="sub_content_box">
-					<div>
-						<!-- TODO #1 MDL has no alternative for HTML "Select" element. Find solution. -->
-
-					</div>
 					<div class="mdl-grid">
 						<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--2dp">
 
@@ -128,8 +122,8 @@
 								</button>
 								<ul class="mdl-menu mdl-js-menu mdl-js-ripple-effect mdl-menu--bottom-right"
 									for="dotsmenuServer">
-									<li class="mdl-menu__item">Добавить сервер</li>
-									<li class="mdl-menu__item">Обновить игроков</li>
+									<li id="menuAddServer" class="mdl-menu__item">Добавить сервер</li>
+									<li id="menuPlayersUpdate" class="mdl-menu__item">Обновить игроков</li>
 								</ul>
 							</div>
 							<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -155,14 +149,11 @@
 									<li class="mdl-menu__item">Name 3</li>
 									<!-- DINAMIC content gose here. Watch index.js -->
 								</ul>
-
 							</div>
-
 							<!-- cписок серверов -->
 							<ul id="webServersList" class="mdl-list-two mdl-list">
 								<!-- DINAMIC content gose here. Watch index.js -->
 							</ul>
-
 						</div>
 						<div class="mdl-card mdl-cell mdl-cell--4-col mdl-shadow--2dp">
 							<div class="mdl-card__title">
@@ -191,7 +182,10 @@
 								</ul>
 							</div>
 							<div class="mdl-textfield mdl-js-textfield  mdl-textfield--floating-label">
-								<p style="width:150px"><input class="mdl-textfield__input" type="text" id="selectBots">
+								<p style="width:150px">
+									<input class="mdl-textfield__input" type="text" id="selectBots">
+									<input id="slideBotSkill" class="mdl-slider mdl-js-slider" type="range"
+									value="0" step="1" tabindex="0">
 								</p>
 								<label class="mdl-textfield__label" for="selectBots">Bots</label>
 								<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
@@ -210,21 +204,36 @@
 							<div class="mdl-card__title">
 								<h2 class="mdl-card__title-text">Fast settings</h2>
 							</div>
-							<div class="mdl-textfield">
-								<input id="slideSens" class="mdl-slider mdl-js-slider" type="range" min="0" max="5"
-									value="0,65" step="0,01" tabindex="0">
-								<label class="mdl-textfield__label" for="slideSens">Sens</label>
-							</div>
+							
 
 						</div>
 					</div>
 					<!-- кнопка добавления новой команды -->
-					<button id="new_command_button"
+					<button id="rndbtnStart"
 						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 						<i class="material-icons">update</i>
 					</button>
 					<div class="mdl-tooltip" for="new_command_button">Update players online</div>
 				</div>
+				<!-- действия при выборе раздела -->
+				<script>
+					$("#drawer_Start").click(function (e) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Старт');
+						$("#box_Start").show();
+					});
+
+					$("#rndbtnStart").click(function (e) {
+						window.alert($(this).attr('id'));
+					});
+
+					$('#menuAddServer').click(function (event) {
+						alert($(this).attr('id'));
+					});
+					$('#menuPlayersUpdate').click(function (event) {
+						asincPlayersUpdate();
+					});
+				</script>
 
 				<!-- =================================================================== -->
 				<div id="box_Configs" class="sub_content_box">
@@ -259,6 +268,31 @@
 									<option class="mdl-menu__item" value="91">91</option>
 									<option class="mdl-menu__item" value="diesel">Diesel</option>
 								</select>
+								<select id="editor-theme">
+									<option value="ace/theme/ambiance">Ambiance</option>
+									<option value="ace/theme/chaos">Chaos</option>
+									<option value="ace/theme/clouds_midnight">Clouds Midnight</option>
+									<option value="ace/theme/dracula">Dracula</option>
+									<option value="ace/theme/cobalt">Cobalt</option>
+									<option value="ace/theme/gruvbox">Gruvbox</option>
+									<option value="ace/theme/gob">Green on Black</option>
+									<option value="ace/theme/idle_fingers">idle Fingers</option>
+									<option value="ace/theme/kr_theme">krTheme</option>
+									<option value="ace/theme/merbivore">Merbivore</option>
+									<option value="ace/theme/merbivore_soft">Merbivore Soft</option>
+									<option value="ace/theme/mono_industrial">Mono Industrial</option>
+									<option value="ace/theme/monokai">Monokai</option>
+									<option value="ace/theme/nord_dark">Nord Dark</option>
+									<option value="ace/theme/pastel_on_dark">Pastel on dark</option>
+									<option value="ace/theme/solarized_dark">Solarized Dark</option>
+									<option value="ace/theme/terminal">Terminal</option>
+									<option value="ace/theme/tomorrow_night">Tomorrow Night</option>
+									<option value="ace/theme/tomorrow_night_blue">Tomorrow Night Blue</option>
+									<option value="ace/theme/tomorrow_night_bright">Tomorrow Night Bright</option>
+									<option value="ace/theme/tomorrow_night_eighties">Tomorrow Night 80s</option>
+									<option value="ace/theme/twilight">Twilight</option>
+									<option value="ace/theme/vibrant_ink">Vibrant Ink</option>
+								</select>
 							</div>
 						</div>
 						<div class="bigcard mdl-card mdl-cell mdl-cell--10-col mdl-shadow--2dp">
@@ -266,29 +300,56 @@
 								<!-- DINAMIC content gose here. Watch index.js -->
 							</div>
 						</div>
-						
 					</div>
-					
-					<!-- кнопка добавления новой команды -->
-					<button id="reload_configs"
+					<button id="rndbtnConfig"
 						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-						<i class="material-icons">update</i>
+						<i class="material-icons">save</i>
 					</button>
 				</div>
+				<script>
+					
+					var editor = ace.edit("editor");
+					editor.setTheme("ace/theme/vibrant_ink");
+					editor.session.setMode("ace/mode/javascript");
+					// https://ace.c9.io/#nav=howto
+					
+					$("#drawer_Configs").click(function (event) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Конфиг');
+						editor.setValue(q3cfg);
+						$("#box_Configs").show();
+					});
 
+					$("#rndbtnConfig").click(function (e) {
+						saveFile(cfgPath, editor.getValue());
+						q3cfg = readFile(cfgPath).toString();
+					});
+				</script>
 				<!-- =================================================================== -->
 				<div id="box_Maps" class="sub_content_box">
 
 					<div class="mdl-grid">
 
 						<!-- кнопка Обновления данных -->
-						<button id="refresh-maps-button"
+						<button id="rndbtnMaps"
 							class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 							<i class="material-icons">update</i>
 						</button>
+						<script>
+							$("#rndbtnMaps").click(function (e) {
+								window.alert($(this).attr('id'));
+							});
+						</script>
 					</div>
-
 				</div>
+				<!-- действия при выборе раздела -->
+				<script>
+					$("#drawer_Maps").click(function (event) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Карты');
+						$("#box_Maps").show();
+					});
+				</script>
 				<!-- =================================================================== -->
 				<div id="box_Screenshots" class="sub_content_box">
 					<div class="mdl-grid">
@@ -301,7 +362,21 @@
 						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 						<i class="material-icons">update</i>
 					</button>
+					<script>
+						$("#roundBtnScreenshots").click(function (e) {
+							window.alert($(this).attr('id'));
+						});
+					</script>
+					
 				</div>
+				<!-- действия при выборе раздела -->
+				<script>
+					$("#drawer_Screenshots").click(function (event) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Скриншоты');
+						$("#box_Screenshots").show();
+					});
+				</script>
 				<!-- =================================================================== -->
 				<div id="box_Progress" class="sub_content_box">
 					<div class="mdl-grid">
@@ -314,11 +389,82 @@
 						</div>
 					</div>
 					<!-- кнопка добавления новой команды -->
-					<button id="reload_stat"
+					<button id="rndbtmStat"
 						class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
 						<i class="material-icons">update</i>
 					</button>
+					<script>
+						$("#rndbtmStat").click(function (e) {
+							window.alert($(this).attr('id'));
+						});
+					</script>
 				</div>
+				<!-- действия при выборе раздела -->
+				<script>
+					$("#drawer_Progress").click(function(event){
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Статистика');
+						
+						google.charts.load('current', {packages: ['corechart']});
+						google.charts.setOnLoadCallback(drawChart1);
+						google.charts.setOnLoadCallback(drawChart2);
+						$('#box_Progress').show();
+					});
+				</script>
+
+				<!-- =================================================================== -->
+				<div id="box_Demos" class="sub_content_box">
+
+					<div class="mdl-grid">
+
+						<!-- кнопка Обновления данных -->
+						<button id="rndbtnDemo"
+							class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+							<i class="material-icons">demo</i>
+						</button>
+						<script>
+							$("#rndbtnDemo").click(function (e) {
+								window.alert($(this).attr('id'));
+							});
+						</script>
+					</div>
+
+				</div>
+				<!-- действия при выборе раздела -->
+				<script>
+					$("#drawer_Demos").click(function (event) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Демо');
+						$("#box_Demos").show();
+					});
+				</script>
+
+				<!-- =================================================================== -->
+				<div id="box_Logs" class="sub_content_box">
+
+					<div class="mdl-grid">
+
+						<!-- кнопка Обновления данных -->
+						<button id="rndbtnLogs"
+							class="rnd_btn mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+							<i class="material-icons">log</i>
+						</button>
+						<script>
+							$("#rndbtnLogs").click(function (e) {
+								window.alert($(this).attr('id'));
+							});
+						</script>
+					</div>
+
+				</div>
+				<!-- действия при выборе раздела -->
+				<script> 
+					$("#drawer_Logs").click(function (event) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Логи');
+						$("#box_Logs").show();
+					});
+				</script>
 
 				<!-- =================================================================== -->
 				<div id="box_Settings" class="sub_content_box">
@@ -463,11 +609,18 @@
 						</div>
 					</div>
 				</div>
+				<!-- действия при выборе раздела -->
+				<script>
+					$("#drawer_Settings").click(function (event) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('Настройки');
+						$('#box_Settings').show();
+					});
+				</script>
 
 				<!-- =================================================================== -->
 				<div id="box_AboutApp" class="sub_content_box">
 					<div class="mdl-grid">
-
 						<div class="mdl-card mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-shadow--2dp">
 							dfgdsfgd
 						</div>
@@ -476,8 +629,25 @@
 						</div>
 					</div>
 				</div>
-
+				<!-- действия при выборе раздела -->
+				<script>
+					$("#drawer_AboutApp").click(function (event) {
+						$("#main_box").children().hide();
+						$('span#header_panel').text('О программе');
+						$('#box_AboutApp').show();
+					});
+				</script>
 			</div>
+			<!-- Hide all blocks at start and show main page -->
+			<script>
+				// Hide all blocks at start and show main page
+				$("#main_box").children().hide();
+				$("#box_Start").show();
+				$('.mdl-layout__drawer').click(function (event) {
+					var d = document.querySelector('.mdl-layout');
+					d.MaterialLayout.toggleDrawer();
+				});
+			</script>
 		</main>
 	</div>
 </body>

@@ -9,6 +9,7 @@ var scriptParentDir = objFSO.GetParentFolderName(scriptDir);
 
 // WScript.Echo(scriptParentDir + '\n' + scriptDir + '\n' + scriptSubDir + '\n');
 
+
 // '*********************************************************************************************
 // '*  РАБОТА С ФАЙЛАМИ И ПАПКАМИ
 // '*********************************************************************************************
@@ -28,6 +29,32 @@ function saveFile(strFilePath, sText){
 function logFile(strFilePath, sText){
 	var f = objFSO.OpenTextFile(strFilePath, 8, 1);
 	f.WriteLine(sText); f.close();
+}
+
+
+//  cписок файлов в папке (без подпапок)
+// WScript.Echo(enumFilesInFolfer(scriptDir));
+
+function enumFilesInFolfer(folderspec) {
+	var f, s=[];
+	
+	var folder = objFSO.GetFolder(folderspec);
+	f = new Enumerator(folder.files);
+
+	for (; !f.atEnd(); f.moveNext()) {
+		s.push(f.item());
+		WScript.Echo(f.item());
+	}
+	return (s);
+}
+
+// проверка есть файл или нет
+function isFileExists(filePath) {
+	if (objFSO.FileExists(filePath)){
+		return (true);
+	} else {
+		return (false);
+	}
 }
 
 
