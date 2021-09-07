@@ -1,0 +1,28 @@
+
+
+Map: monastery
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  NONAME           19   3   0   0  0  10 100  6800  2439    0     22
+RED  ///Yul1a*         8   1   3   1  0   7  76  2433  1888    0     10
+RED  ///Mus1n*         0   0   1   1  0   1   0   193   506    0     -1
+-----------------------------------------------------------------------
+RED  Totals           27   4   4   2  0  18  71  9426  4833    0     10
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE frozen            3   2  11   0  0   0  31  1917  4192    0      5
+BLUE HIV+              1   0   9   1  0   0   0  2221  2813    0      0
+BLUE HTF*Prog          0   0   1   1  0   0   0   100   300    0     -1
+BLUE NONAME            0   0   0   0  0   0   0     0     0    0      0
+-----------------------------------------------------------------------
+BLUE Totals            4   2  21   2  0   0   0  4238  7305    0      0
+
+
+
+
+Current time: 14:58:39 (28 Apr 2021)
+
+Dumped console text to stats/2021.04.28/145841.txt.

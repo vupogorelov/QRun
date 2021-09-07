@@ -1,0 +1,16 @@
+
+
+Map: q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+d                 1   0   0    0  84 100  2928  1880      1
+Prog              0   1   0    0   0   0  1880  2928      0
+
+
+
+
+Current time: 01:06:56 (02 Apr 2021)
+
+Dumped console text to stats/2021.04.02/010658.txt.

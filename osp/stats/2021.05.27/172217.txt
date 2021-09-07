@@ -1,0 +1,15 @@
+
+
+Map: q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+HTF*Prog          0   0   0   15   0   0     0     0      0
+
+
+
+
+Current time: 17:22:17 (27 May 2021)
+
+Dumped console text to stats/2021.05.27/172217.txt.

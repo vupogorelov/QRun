@@ -1,0 +1,25 @@
+
+
+Map: cybdmpro2
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  Ranger            3   0  13   1  0   5  13  1585  4454    0      2
+RED  oZ                0   0   6   0  0   0   0  1161  1930    0      0
+-----------------------------------------------------------------------
+RED  Totals            3   0  19   1  0   5  26  2746  6384    0      7
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE HTF*Prog         10   0   9   0  0   9  52  4785  3841    0     10
+BLUE ///Mus1n*         9   1   0   1  0   6 100  2474   923    0      9
+-----------------------------------------------------------------------
+BLUE Totals           19   1   9   1  0  15  52  7259  4764    0     10
+
+
+
+
+Current time: 01:53:45 (06 Apr 2021)
+
+Dumped console text to stats/2021.04.06/015347.txt.

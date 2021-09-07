@@ -1,0 +1,36 @@
+
+
+Map: pro-q3dm6
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  Brinton          24   8  14   0  0   5  69  7390  4198    0     32
+RED  easy_rails       23   3  12   0  0   5  68  6883  4590    0     26
+RED  killarbyte       12   8  15   0  0   5  57  5080  4711    0     20
+RED  Fuckaris         12   2  13   0  0   5  51  4148  4090    0     14
+RED  3a_6aTbky!       11   2  18   0  0   5  41  5113  5526    0     13
+RED  Sasha             6   4  16   0  0   3  38  2054  4316    0     10
+RED  HTF*Prog          1   0   2   1  0   0   0   256   543    0      0
+-----------------------------------------------------------------------
+RED  Totals           89  27  90   1  0  28   5 30924 27974    0      5
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE n8Neko          15  13   5   1  0   9  84  3463  2391    0     27
+BLUE nivlek[32]       20   6  16   0  0   7  61  4789  5184    0     26
+BLUE p1azmatr0n       16   8  14   0  0   9  63  4563  4791    0     24
+BLUE AksoNIaneC       11   7   6   0  1   6  73  2891  2267  100     17
+BLUE drZORGE          12   4  13   0  0   8  55  4618  4188    0     16
+BLUE EventHorizon      9   4  12   0  0   7  52  2801  4217    0     13
+BLUE *27*              7   4  16   0  0   8  40  2549  4831    0     11
+BLUE xpow              6   3   4   1  0   7  66  2783  1994    0      8
+-----------------------------------------------------------------------
+BLUE Totals           96  49  86   2  1  61  10 28457 29863  100     10
+
+
+
+
+Current time: 00:09:40 (07 Apr 2021)
+
+Dumped console text to stats/2021.04.07/000940.txt.

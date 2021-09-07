@@ -1,0 +1,37 @@
+
+Fuckaris: |]
+n8Neko: pride is very poor chanel
+
+Map: uberkill
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  Brinton          26   8  10   0  0   9  77  9150  4109    0     34
+RED  7+               25   8  14   0  0   7  70  6107  5362    0     33
+RED  killarbyte       12  11  15   0  0   5  60  5073  4901    0     23
+RED  {WHITE}URIEL     11   2   4   1  0   4  75  3073  1478    0     12
+RED  Fuckaris          3   4  14   0  0   8  33  2495  4152    0      7
+RED  Sasha             6   1  17   0  0   7  29  2091  5212    0      7
+RED  HTF*Xyis          3   2   1   1  0   2  80   828   460    0      4
+-----------------------------------------------------------------------
+RED  Totals           86  36  75   2  0  42  11 28817 25674    0     10
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE n8Neko          19   4  16   0  0   5  58  7351  5672    0     23
+BLUE AksoNIaneC       16   5  13   0  0   4  61  4963  5145    0     21
+BLUE p1azmatr0n       13   4  15   0  0   4  53  3472  4911    0     17
+BLUE drZORGE          11   5  15   0  0   5  51  3882  4691    0     16
+BLUE nivlek[32]       11   3  17   0  0   3  45  4934  4776    0     14
+BLUE EventHorizon      9   3  15   0  0   5  44  2962  4458    0     12
+BLUE HTF*Prog          8   1   9   1  0   1  47  2796  3049    0      8
+-----------------------------------------------------------------------
+BLUE Totals           87  25 100   1  0  27   4 30360 32702    0      5
+
+
+
+
+Current time: 00:27:11 (07 Apr 2021)
+
+Dumped console text to stats/2021.04.07/002711.txt.

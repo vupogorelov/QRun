@@ -1,0 +1,177 @@
+
+Nextmap: bloodister
+
+Accuracy info for: Flegy
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :    20.0    2/10       1      0      0     0
+R.Launcher  :    44.5   33/74       6      3      0     0
+LightningGun:    21.6   31/143      0      2      0     0
+Railgun     :    16.6    3/18       0      4      0     0
+
+Damage Given: 2655    Armor Taken : 405    (3 YA, 2 RA)
+Damage Recvd: 3567    Health Taken: 165    (0 MH)
+
+
+Accuracy info for: e6aHyTblu
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    31.9   31/97       4      0      0     0
+LightningGun:    27.9  102/365      5      2      0     0
+Railgun     :    38.2   13/34       3      4      0     0
+
+Damage Given: 3625    Armor Taken : 250    (2 YA, 1 RA)
+Damage Recvd: 2690    Health Taken: 195    (0 MH)
+
+
+Accuracy info for: Rightover
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :    21.7    5/23       0      0      0     0
+G.Launcher  :     9.0    1/11       0      0      0     0
+R.Launcher  :    32.2   20/62       6      2      0     0
+LightningGun:    27.4  116/423      5      2      0     0
+Railgun     :    48.6   18/37       8      5      0     0
+Plasmagun   :     8.8    3/34       0      0      0     0
+
+Damage Given: 3804    Armor Taken : 100    (0 YA, 1 RA)
+Damage Recvd: 2706    Health Taken: 15     (0 MH)
+
+
+Accuracy info for: piupiu
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/1        0      0      0     0
+R.Launcher  :    24.4   11/45       1      4      0     0
+LightningGun:    22.3   25/112      1      4      0     0
+Railgun     :    42.2   19/45       2      4      0     0
+
+Damage Given: 2701    Armor Taken : 20     (0 YA, 0 RA)
+Damage Recvd: 3428    Health Taken: 35     (0 MH)
+
+
+Accuracy info for: Yussi*Vatanen///
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    30.9   30/97       4      5      0     0
+LightningGun:     0.0    0/0        0      2      0     0
+Railgun     :    23.0    6/26       1      4      0     0
+
+Damage Given: 2232    Armor Taken : 15     (0 YA, 0 RA)
+Damage Recvd: 3182    Health Taken: 50     (0 MH)
+
+
+Accuracy info for: smb333
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    50.0   15/30       3      1      0     0
+LightningGun:    10.7    7/65       0      2      0     0
+Railgun     :    50.6   39/77       7      2      0     0
+
+Damage Given: 4336    Armor Taken : 240    (0 YA, 2 RA)
+Damage Recvd: 2498    Health Taken: 75     (0 MH)
+
+
+Accuracy info for: skilya
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    37.5    9/24       0      2      0     0
+LightningGun:    25.7  160/622      2      5      0     0
+Railgun     :    53.8   14/26       4      3      0     0
+Plasmagun   :     4.2    4/94       0      0      0     0
+
+Damage Given: 2971    Armor Taken : 275    (3 YA, 1 RA)
+Damage Recvd: 3223    Health Taken: 85     (0 MH)
+
+
+Accuracy info for: ledi
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/0        0      1      0     0
+R.Launcher  :    26.0    6/23       1      1      0     0
+LightningGun:     0.0    0/5        0      0      0     0
+Railgun     :    50.0    1/2        0      1      0     0
+
+Damage Given: 378     Armor Taken : 50     (1 YA, 0 RA)
+Damage Recvd: 960     Health Taken: 75     (0 MH)
+
+
+Accuracy info for: Torik
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     3.5    1/28       0      0      0     0
+R.Launcher  :    16.3    8/49       0      0      0     0
+LightningGun:    36.9  245/663      5      2      0     0
+Railgun     :    48.4   16/33       5      3      0     0
+
+Damage Given: 3722    Armor Taken : 425    (1 YA, 3 RA)
+Damage Recvd: 2626    Health Taken: 160    (0 MH)
+
+
+Accuracy info for: (QooL)spirit
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :    16.6    1/6        0      0      0     0
+R.Launcher  :    24.3    9/37       0      1      0     0
+LightningGun:    41.4  215/519      8      5      0     0
+Railgun     :    55.5   15/27       7      8      0     0
+Plasmagun   :    15.3    6/39       0      0      0     0
+
+Damage Given: 3711    Armor Taken : 100    (2 YA, 0 RA)
+Damage Recvd: 3844    Health Taken: 55     (0 MH)
+
+
+Map: unitooldm4
+Time Remaining: 13:20
+
+Player          Kll Dth Sui Time FPM Eff     DG     DR  Score
+-------------------------------------------------------------
+Rightover        19   9   0    6   3  67   3804   2706     20
+(QooL)spirit     15  14   0    6   2  51   3711   3844     15
+smb333           10   5   0    6   1  66   4336   2498     14
+e6aHyTblu        12   6   0    6   2  66   3625   2690     13
+Torik            10   5   0    6   1  66   3722   2626     13
+skilya            6  10   0    6   1  37   2971   3223     10
+Flegy             7   9   0    6   1  43   2655   3567     10
+Yussi*Vatanen//   5  11   0    6   0  31   2232   3182      6
+piupiu            4  12   0    6   0  25   2701   3428      6
+ledi              1   3   0    1   1  25    378    960      2
+naTpuapx*KupuJI   0   0   0 1084   0   0      0      0      0
+
+Best Match Accuracies:
+WP    Acc Hits/Atts Kills Deaths
+------------------------------------------------------
+GL   20.0    2/10       1      0 Flegy
+RL   50.0   15/30       3      1 smb333
+LG   41.4  215/519      8      5 (QooL)spirit
+RG   55.5   15/27       7      8 (QooL)spirit
+Best 39.3  247/628               (QooL)spirit
+
+Awards List:
+------------------------------------------------------
+Most Chat Frags             1    e6aHyTblu
+Most Thaws                  4    smb333
+Most Defense                2    e6aHyTblu
+Most Assists                4    smb333
+Most Impressive            10    smb333
+Most Excellent              3    (QooL)spirit
+Most Kills                 19    Rightover
+Best Efficiency          67.8    Rightover
+Best Kill Streak            6    Rightover
+Best Skill               1023    Rightover
+
+WARNING: unable to take screenshot when minimized because FBO is not available/enabled.
+
+Current time: 22:40:32 (26 Aug 2021)
+
+Dumped console text to stats/2021.08.26/194032.txt.

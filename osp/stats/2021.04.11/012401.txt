@@ -1,0 +1,31 @@
+
+
+Map: q3dm7
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  easy_rails       22   7  12   0  0   9  70  7576  4561    0     29
+RED  *S*R*A*M*        20   6  14   0  0   9  65  6284  5809    0     26
+RED  NONAME           16  10  16   1  0   6  60  5617  5486    0     25
+RED  EventHorizon     10   9  14   2  0   9  54  3232  4669    0     17
+RED  HTF*Prog          5   1   5   1  0   3  50  1165  1444    0      5
+-----------------------------------------------------------------------
+RED  Totals           73  33  61   4  0  36  14 23874 21969    0     10
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE 3a_6aTbky!       15   7  15   0  0   6  59  4849  5336    0     22
+BLUE ebobo            16   3  20   0  0   3  48  5849  5942    0     19
+BLUE <LK><hacker>      9   8  15   0  0   3  53  4840  5548    0     17
+BLUE TOPMO3            7   0  20   0  0   4  25  2598  5348    0      7
+BLUE laggy mouse       7   0   5   1  0   2  54  2446  1818    0      6
+-----------------------------------------------------------------------
+BLUE Totals           54  18  75   1  0  18   8 20582 23992    0      7
+
+
+
+
+Current time: 01:24:00 (11 Apr 2021)
+
+Dumped console text to stats/2021.04.11/012401.txt.

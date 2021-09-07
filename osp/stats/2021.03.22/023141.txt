@@ -1,0 +1,27 @@
+
+
+Map: overkill-new-8
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  HTF*Loki         17   4  12   0  0   3  63  8334  4723    0     21
+RED  Can't miss       11   2   9   1  0   3  57  4037  3233    0     12
+RED  HTF*Prog          3   2  15   0  0   3  25  2083  4633    0      5
+-----------------------------------------------------------------------
+RED  Totals           31   8  36   1  0   9  10 14454 12589    0      4
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE HTF*Xyis         23  10   7   0  0   8  82  7490  5459    0     33
+BLUE AksoNIaneC        9   3  13   0  0   9  48  3491  4974    0     12
+BLUE oZ                4   2  11   0  0   9  35  1608  4021    0      6
+-----------------------------------------------------------------------
+BLUE Totals           36  15  31   0  0  26  24 12589 14454    0     10
+
+
+
+
+Current time: 02:31:39 (22 Mar 2021)
+
+Dumped console text to stats/2021.03.22/023141.txt.

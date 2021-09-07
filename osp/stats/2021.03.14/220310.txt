@@ -1,0 +1,41 @@
+
+I can win!: i win!
+
+Map: servitude
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  ANSYS            33  12  18   1  0   7  70 11855  6120    0     44
+RED  Cybra            20  13  20   0  0   7  62  6454  6507    0     33
+RED  Rain[MK11]       16  12  15   0  0   8  65  5467  5727    0     28
+RED  HTF*Prog         17   6  14   1  0   9  61  3662  4600    0     22
+RED  [bst]Rx8         17   4  18   0  0   8  53  6040  5960    0     21
+RED  Yakubovich       13   6  17   0  0   9  52  5385  5741    0     19
+RED  pornoLags        13   6  23   0  0   6  45  4740  6537    0     19
+RED  *27*              7  10  10   1  0   6  61  1857  3428    0     16
+RED  CAT               2   1  12   1  0   6  14  1133  4049    0      2
+-----------------------------------------------------------------------
+RED  Totals          138  70 147   4  0  66   5 46593 48669    0      9
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE CrowKiller       40  11  14   0  0  10  78 12194  4947    0     51
+BLUE brusketa         27  12  16   1  0   6  70  8035  5858    0     38
+BLUE dif              19   5  18   0  0  10  57  6739  6143    0     24
+BLUE Mill             18   6  20   0  0   7  54  5756  6365    0     24
+BLUE nypreH           14   5  10   1  0   4  64  4139  3317    0     18
+BLUE bass             11   6   6   1  0   2  72  2508  2011    0     16
+BLUE apathoken        11   5   7   1  1   9  66  2882  2491  100     14
+BLUE oZ                9   5  17   0  0   9  45  4315  6418    0     14
+BLUE I can win!       10   3  13   1  0   3  48  3135  3992    0     12
+BLUE xpow              0   0   0   0  0   2   0     0   220    0      0
+-----------------------------------------------------------------------
+BLUE Totals          159  58 121   5  1  62   7 49703 41762  100     10
+
+
+
+
+Current time: 22:03:08 (14 Mar 2021)
+
+Dumped console text to stats/2021.03.14/220310.txt.

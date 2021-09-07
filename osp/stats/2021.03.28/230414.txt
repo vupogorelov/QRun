@@ -1,0 +1,27 @@
+
+
+Map: pro-q3tourney4
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  Prog             13   3  13   0  1   7  53  4510  4211  100     15
+RED  Cybra             5   1   9   1  0   6  35  3378  2710    0      5
+-----------------------------------------------------------------------
+RED  Totals           18   4  22   1  1  13  26  7888  6921  100      8
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE click&fun        15   1  13   0  0   8  55  5051  4873    0     16
+BLUE qe               12   3   2   1  0   5  87  2797  1135    0     14
+BLUE perfect enemy    11   2  12   0  0   9  52  4202  4835    0     13
+BLUE .                 5   2   9   1  0   2  40  2142  2884    0      6
+-----------------------------------------------------------------------
+BLUE Totals           43   8  36   2  0  24  21 14192 13727    0     10
+
+
+
+
+Current time: 23:04:12 (28 Mar 2021)
+
+Dumped console text to stats/2021.03.28/230414.txt.

@@ -1,0 +1,16 @@
+
+
+Map: q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+horny             1   0   0    0  65 100  2904  2440      1
+Prog              0   1   0    0   0   0  2440  2904      0
+
+
+
+
+Current time: 01:21:25 (02 Apr 2021)
+
+Dumped console text to stats/2021.04.02/012127.txt.

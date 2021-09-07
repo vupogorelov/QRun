@@ -1,0 +1,16 @@
+
+
+Map: q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+horny             1   0   0    0  69 100  2912  2672      1
+Izzy              0   1   0    0   0   0  2672  2912      0
+
+
+
+
+Current time: 00:57:26 (02 Apr 2021)
+
+Dumped console text to stats/2021.04.02/005728.txt.

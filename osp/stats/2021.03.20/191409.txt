@@ -1,0 +1,38 @@
+
+Cyber_Psycho: mde
+
+Map: uberkill
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  Rain[MK11]       25  16  17   0  0   5  70  9257  6694    0     41
+RED  Bl!nd            20  10  21   0  0   6  58  6420  6820    0     30
+RED  Cyber_Psycho     16   4  21   0  0   6  48  6099  6685    0     20
+RED  BbICEJIKI        13   3  15   0  0   4  51  3721  4404    0     16
+RED  wh                8   4   3   1  0   1  78  2816  1088    0     11
+RED  Yzkaia Putana     5   2  18   0  0   6  28  2192  5551    0      7
+RED  i4o               2   0   6   1  0   2  14  1502  1880    0      1
+RED  billybb           1   0   4   1  0   1   0   703  1537    0      0
+-----------------------------------------------------------------------
+RED  Totals           90  39 105   3  0  31   6 32710 34659    0      7
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE 7+               29  10  17   0  0   8  69  7214  6221    0     39
+BLUE p1azmatr0n       19  15  14   1  0   8  70  6146  5390    0     33
+BLUE HEKPACOBKA       26   6  18   0  0   9  64  7560  6336    0     32
+BLUE Bonifacy         19  10  24   0  0   6  54  8055  7970    0     29
+BLUE J@M              18   4  18   0  0   5  55  7606  6864    0     22
+BLUE pside            14   7  19   0  0   7  52  4923  5870    0     21
+BLUE Frey              7  11  13   1  0   7  56  2972  4370    0     17
+BLUE apathoken         4   2   1   1  0   1  83  1128   475    0      5
+-----------------------------------------------------------------------
+BLUE Totals          136  65 124   3  0  51   6 45604 43496    0      9
+
+
+
+
+Current time: 19:14:07 (20 Mar 2021)
+
+Dumped console text to stats/2021.03.20/191409.txt.

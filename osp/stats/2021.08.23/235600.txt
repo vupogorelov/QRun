@@ -1,0 +1,74 @@
+
+Nextmap: unitooldm4
+
+Accuracy info for: Antti*Iholainen///
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    24.5   15/61       3      0      0     0
+LightningGun:     0.0    0/0        0      1      0     0
+Railgun     :    11.1    1/9        0      3      0     0
+
+Damage Given: 1094    Armor Taken : 165    (3 YA, 0 RA)
+Damage Recvd: 1670    Health Taken: 100    (1 MH)
+
+
+Accuracy info for: NONAME
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    28.7   25/87       3      3      0     0
+LightningGun:    30.0   82/273      1      4      0     0
+Railgun     :    51.4   36/70       8      0      0     0
+
+Damage Given: 5209    Armor Taken : 445    (8 YA, 0 RA)
+Damage Recvd: 2609    Health Taken: 310    (2 MH)
+
+
+Accuracy info for: 999
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :    14.2   25/176      1      0      0     0
+G.Launcher  :     1.5    1/64       1      0      0     0
+R.Launcher  :    12.6   26/205      0      6      0     0
+LightningGun:    13.8  206/1485     4      0      0     0
+Railgun     :    13.1    5/38       0      5      0     0
+
+Damage Given: 3306    Armor Taken : 1115   (20 YA, 0 RA)
+Damage Recvd: 5747    Health Taken: 720    (4 MH)
+
+
+Map: m4
+Time Remaining: 6:22
+
+Player          Kll Dth Sui Time FPM Eff     DG     DR  Score
+-------------------------------------------------------------
+NONAME           12   7   0    7   1  63   5209   2609     12
+999               6  11   0   13   0  35   3306   5747      8
+Antti*Iholainen   3   4   0    3   1  42   1094   1670      4
+
+Best Match Accuracies:
+WP    Acc Hits/Atts Kills Deaths
+------------------------------------------------------
+SG   14.2   25/176      1      0 999
+GL    1.5    1/64       1      0 999
+RL   28.7   25/87       3      3 NONAME
+LG   30.0   82/273      1      4 NONAME
+RG   51.4   36/70       8      0 NONAME
+Best 33.2  143/430               NONAME
+
+Awards List:
+------------------------------------------------------
+Most Thaws                  2    999
+Most Assists                2    999
+Most Impressive            11    NONAME
+Most Kills                 12    NONAME
+Best Efficiency          63.1    NONAME
+Best Kill Streak            9    NONAME
+Best Skill               1013    NONAME
+
+
+Current time: 02:55:59 (24 Aug 2021)
+
+Dumped console text to stats/2021.08.23/235600.txt.

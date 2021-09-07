@@ -1,0 +1,30 @@
+
+
+Map: ztn3tourney1
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  *S*R*A*M*        14   1   9   0  0   9  62  5946  5044    0     15
+RED  TbI 3AMEP3HESH   14   1  11   0  0   9  57  5870  5043    0     15
+RED  NONAME            4   4   5   1  0   1  58  1653  2248    0      7
+RED  Mauop rpoM        1   2   2   1  0   1  50   581   756    0      2
+-----------------------------------------------------------------------
+RED  Totals           33   8  27   2  0  20  27 14050 13091    0     10
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE oZ               10   5   5   0  0   6  75  2370  2703    0     15
+BLUE 7+               10   5  12   0  0   6  55  6396  5348    0     15
+BLUE Crsg              5   1   3   1  0   4  62  1739  1820    0      5
+BLUE Prog              2   0  13   1  0   3   7  2586  4179    0      1
+BLUE LOTZY*            0   0   0   0  0   0   0     0     0    0      0
+-----------------------------------------------------------------------
+BLUE Totals           27  11  33   2  0  19  17 13091 14050    0      7
+
+
+
+
+Current time: 01:07:22 (01 Apr 2021)
+
+Dumped console text to stats/2021.04.01/010723.txt.

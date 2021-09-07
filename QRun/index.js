@@ -34,31 +34,36 @@ $(function () {
 
 	// подгружаем web сервера
 	for (n in config.servers.web) {
-
+		
 		var data = '<li id="webSrvName' + n + '" class="mdl-list__item mdl-list__item--two-line">';
-			data += '<div class="mdl-tooltip" for="webSrvName' + n + '">' + config.servers.web[n].command + '</div>';
-			data += '<span class="mdl-list__item-primary-content">';
-			data += '<i id="webSrvName-i' + n + '" class="material-icons mdl-list__item-avatar mdl-badge--overlap" data-badge="">public</i>';
-			data += '<span>' + config.servers.web[n].name + '</span>';
-			data += '<span id="srvPlayers' + n + '" class="mdl-list__item-sub-title">' + 'update players online...' + '</span>';
-			data += '</span>';
-			data += '<span class="mdl-list__item-secondary-content">';
-			data += '<button id="btnRun" cmd="' + config.servers.web[n].command + '" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored"><i class="material-icons">play_circle_outline</i></button>';
-			data += '</span></li>';
+				
+				data += '<span class="mdl-list__item-primary-content">';
+					data += '<i class="material-icons mdl-list__item-avatar mdl-badge--overlap" data-badge="">public</i>';
+					data += '<span>' + config.servers.web[n].name + '</span>';
+					data += '<span id="srvPlayers' + n + '" class="mdl-list__item-sub-title">update players online...</span>';
+				data += '</span>';
+
+				data += '<span class="mdl-list__item-secondary-content">';
+					data += '<button id="btnRun" cmd="' + config.servers.web[n].command + '" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored"><i class="material-icons">play_circle_outline</i></button>';
+				data += '</span></li>';
+
+				data += '<div class="mdl-tooltip" for="webSrvName' + n + '">' + config.servers.web[n].command + '</div>';
 		$(webServersList).append(data);
 	}
 
 	// кнопка справа от каждого сервера - обработка нажатий
-	$('#btnRun').click(function (event) {
+	$(btnRun).click(function (e) {
 		runFile(scriptDir + '\\xq3e.exe ', $(this).attr('cmd'));
+		//alert($(this).attr('cmd'));
+		//alert($(this).attr('id'));
 	});
 
 	asincPlayersUpdate();
 });
 
-
+// асинхронно подгружаем игроков онлайн
 function asincPlayersUpdate(){
-	// асинхронно подгружаем игроков онлайн
+	
 	$.ajax('http://n2.q3msk.ru/', {
 		success: function (data) {
 			var ret = $(data).find('.playersTitle')
@@ -84,6 +89,74 @@ function asincPlayersUpdate(){
 		}
 	});
 }
+
+// обновление скриншотов в галерее
+function galleryUpdate() {
+	var arrFiles = enumFilesInFolfer(scriptDir + "\\osp\\screenshots");
+
+	$('.mySlidesImg').each(function(i) {
+		if (i <= arrFiles.length){
+			$(this).attr("src",'osp/screenshots/' + arrFiles[i]);
+			$(this).attr("alt", arrFiles[i]);
+			// alert($(this).attr("src") + "\n" + i);
+		}
+	});
+
+	$('.demo').each(function(i) {
+		if (i <= arrFiles.length){
+			$(this).attr("src",'osp/screenshots/' + arrFiles[i]);
+			$(this).attr("alt", arrFiles[i]);
+		}
+	});
+}
+
+// асинхронно подгружаем картинки карт
+function asincMapsUpdate(){
+	var s=[];
+	$.ajax('http://n2.q3msk.ru/', {
+		success: function (data) {
+			$(data).find('.boxes').children('div').each(function () {
+				var ret = this.find('img').attr('src');
+				s.push(ret);
+			});
+			$("#mapsBlock").prepend('<img src='+ s[6] +' style="width:100%">');
+			$("#mapsBlock").prepend('<img src='+ s[4] +' style="width:100%">');
+			$("#mapsBlock").prepend('<img src='+ s[0] +' style="width:100%">');
+			
+			// var ret = $('.q3mskMap').attr('src', ret[0]);
+			
+	
+		},
+		error: function () {
+			alert('Не удалось спарсить игроков');
+		}
+	});
+}
+
+// обновление скриншотов в галерее
+function galleryUpdate() {
+	var arrFiles = enumFilesInFolfer(scriptDir + "\\osp\\screenshots");
+
+	$('.mySlidesImg').each(function(i) {
+		if (i <= arrFiles.length){
+			$(this).attr("src",'osp/screenshots/' + arrFiles[i]);
+			$(this).attr("alt", arrFiles[i]);
+			// alert($(this).attr("src") + "\n" + i);
+		}
+	});
+
+	$('.demo').each(function(i) {
+		if (i <= arrFiles.length){
+			$(this).attr("src",'osp/screenshots/' + arrFiles[i]);
+			$(this).attr("alt", arrFiles[i]);
+		}
+	});
+}
+
+
+
+
+
 
 // '*********************************************************************************************
 // '*  Показываем графики

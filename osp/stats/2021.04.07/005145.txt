@@ -1,0 +1,28 @@
+
+
+Map: reqdm5
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  naTpuapx*KupuJI   9   2  14   0  0   3  44  3694  4930    0     11
+RED  drZORGE           8   2  15   1  0   4  37  3800  5252    0      9
+RED  .....             1   2  17   0  0   3  15  2287  4816    0      3
+RED  Ranger            1   0   2   2  0   0   0   534   740    0     -1
+-----------------------------------------------------------------------
+RED  Totals           19   6  48   3  0  10  11 10315 15738    0      6
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE l o x            26   2   9   0  0  10  75  7900  3703    0     28
+BLUE Yakubovich       11   2   4   2  0   6  73  3431  2370    0     11
+BLUE HTF*Prog          9   1  10   0  0   8  50  3519  3845    0     10
+-----------------------------------------------------------------------
+BLUE Totals           46   5  23   2  0  24  30 14850  9918    0     10
+
+
+
+
+Current time: 00:51:45 (07 Apr 2021)
+
+Dumped console text to stats/2021.04.07/005145.txt.

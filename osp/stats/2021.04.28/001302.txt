@@ -1,0 +1,35 @@
+
+HIV+ disconnected
+
+Map: overkill
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  pin              28   7  15   4  0   8  67 10451  6313    0     31
+RED  J@M              21   6  12   7  0   8  62  7427  6579    0     20
+RED  KARMA            18  10  12   8  0   9  62  5506  5187    0     20
+RED  HTF*Prog         12   6  25   3  0   8  37  6036  8054    0     15
+RED  AksoNIaneC        1   3   4   0  0   1  50   985  1147    0      4
+RED  Frey              2   0   5   1  0   2  16   739  1383    0      1
+-----------------------------------------------------------------------
+RED  Totals           82  32  73  23  0  36  10 31144 28663    0      9
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE laggy mouse      25   4  12   3  0  10  68  7466  4196    0     26
+BLUE Obsequy          28   8  14  10  0  10  65 10124  6179    0     26
+BLUE Cumper           20   4  16   4  0   9  55  7081  6511    0     20
+BLUE Will             14   3  19   3  0   9  42  4691  7057    0     14
+BLUE LILLIL           15   6  20   7  1   9  39  8878  7639  100     13
+BLUE NONAME            3   0   1   0  0   1  75   433   440    0      3
+BLUE _ApTaHuC_         5   1   4   4  0   3  33  1853  1984    0      2
+-----------------------------------------------------------------------
+BLUE Totals          110  26  86  31  1  51  10 40526 34006  100     10
+
+
+
+
+Current time: 00:13:01 (28 Apr 2021)
+
+Dumped console text to stats/2021.04.28/001302.txt.
