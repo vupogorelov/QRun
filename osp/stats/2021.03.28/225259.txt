@@ -1,0 +1,36 @@
+
+
+Map: q3dm8
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  qe               34  14  21   0  0   9  69 10379  7845    0     48
+RED  ///Mus1n*        23  11  15   0  0   7  69  6595  5558    0     34
+RED  sla              22  10  17   0  0   8  65  5009  5914    0     32
+RED  bass             28   5  19   1  0   7  62  7658  6115    0     32
+RED  XER!             20   5  21   0  0   4  54  6900  6567    0     25
+RED  KOPOJlb KBEuKA   10   2  21   0  1   8  34  5108  6926  100     11
+RED  Prog              2   2   7   1  0   3  30  2195  2561    0      3
+-----------------------------------------------------------------------
+RED  Totals          139  49 121   2  1  46   6 43844 41486  100      9
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE TooDrunkToPlay   25  17  16   0  0   7  72  8201  5587    0     42
+BLUE ihopeso          21   6  20   0  0   8  57  5305  6279    0     27
+BLUE Eeeeaaaaggleeee  16   8   9   1  0   6  71  5123  3310    0     23
+BLUE click&fun        16   5  18   0  0   8  53  6830  6060    0     21
+BLUE ///Yul1a*        11   8  22   0  0   5  46  4406  6625    0     19
+BLUE Rhino             8   5  10   1  0   5  54  2324  2993    0     12
+BLUE perfect enemy     8   2  14   1  0   6  39  3243  3977    0      9
+BLUE 3a_6aTbky!        0   0   1   1  0   1   0    54   279    0     -1
+-----------------------------------------------------------------------
+BLUE Totals          105  51 110   4  0  46   8 35486 35110    0     10
+
+
+
+
+Current time: 22:52:57 (28 Mar 2021)
+
+Dumped console text to stats/2021.03.28/225259.txt.

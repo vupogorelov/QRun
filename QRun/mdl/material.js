@@ -768,7 +768,7 @@ MaterialCheckbox.prototype.updateClasses_ = function () {
    * @private
    */
 MaterialCheckbox.prototype.blur_ = function () {
-    // TODO: figure out why there's a focus event being fired after our blur,
+    // figure out why there's a focus event being fired after our blur,
     // so that we can avoid this hack.
     window.setTimeout(function () {
         this.inputElement_.blur();
@@ -996,7 +996,7 @@ MaterialIconToggle.prototype.updateClasses_ = function () {
    * @private
    */
 MaterialIconToggle.prototype.blur_ = function () {
-    // TODO: figure out why there's a focus event being fired after our blur,
+    // figure out why there's a focus event being fired after our blur,
     // so that we can avoid this hack.
     window.setTimeout(function () {
         this.inputElement_.blur();
@@ -1748,7 +1748,7 @@ MaterialRadio.prototype.updateClasses_ = function () {
    * @private
    */
 MaterialRadio.prototype.blur_ = function () {
-    // TODO: figure out why there's a focus event being fired after our blur,
+    //figure out why there's a focus event being fired after our blur,
     // so that we can avoid this hack.
     window.setTimeout(function () {
         this.btnElement_.blur();
@@ -2490,7 +2490,7 @@ MaterialSwitch.prototype.updateClasses_ = function () {
    * @private
    */
 MaterialSwitch.prototype.blur_ = function () {
-    // TODO: figure out why there's a focus event being fired after our blur,
+    // igure out why there's a focus event being fired after our blur,
     // so that we can avoid this hack.
     window.setTimeout(function () {
         this.inputElement_.blur();
@@ -2973,7 +2973,7 @@ MaterialTextfield.prototype.init = function () {
             this.input_.addEventListener('blur', this.boundBlurHandler);
             this.input_.addEventListener('reset', this.boundResetHandler);
             if (this.maxRows !== this.Constant_.NO_MAX_ROWS) {
-                // TODO: This should handle pasting multi line text.
+                // This should handle pasting multi line text.
                 // Currently doesn't.
                 this.boundKeyDownHandler = this.onKeyDown_.bind(this);
                 this.input_.addEventListener('keydown', this.boundKeyDownHandler);

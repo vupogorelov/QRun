@@ -1,12 +1,14 @@
 var objFSO = new ActiveXObject("Scripting.FileSystemObject");
 var objShell = new ActiveXObject("WScript.Shell");
 
-var scriptDir = objShell.CurrentDirectory + '\\QRun';
+var scriptDir = objShell.CurrentDirectory;
+var scriptSubDir = objShell.CurrentDirectory + '\\QRun';
 var scriptParentDir = objFSO.GetParentFolderName(scriptDir);
 
 
 
-// WScript.Echo(scriptDir);
+// WScript.Echo(scriptParentDir + '\n' + scriptDir + '\n' + scriptSubDir + '\n');
+
 
 // '*********************************************************************************************
 // '*  РАБОТА С ФАЙЛАМИ И ПАПКАМИ
@@ -27,6 +29,92 @@ function saveFile(strFilePath, sText){
 function logFile(strFilePath, sText){
 	var f = objFSO.OpenTextFile(strFilePath, 8, 1);
 	f.WriteLine(sText); f.close();
+}
+
+// cписок файлов в папке (без подпапок)
+// WScript.Echo(enumFilesInFolfer(scriptDir + '//osp//screenshots'));
+function enumFilesInFolfer(folderspec) {
+	var f, s=[];
+	
+	var folder = objFSO.GetFolder(folderspec);
+	f = new Enumerator(folder.files);
+
+	for (; !f.atEnd(); f.moveNext()) {
+		s.push(f.item().Name);
+	}
+	return (s);
+}
+
+// cписок файлов в папке (без подпапок)
+// WScript.Echo(test_enumFilesInFolfer(scriptDir + '//osp//screenshots'));
+
+function test_enumFilesInFolfer(folderspec) {
+	var f, s=[], d=[], i=0;
+	
+	var folder = objFSO.GetFolder(folderspec);
+	f = new Enumerator(folder.files);
+
+	for (;!f.atEnd(); f.moveNext()) {
+		i++;
+
+		var fl = objFSO.GetFile(f.item());
+
+		// d.push([f.item().Name], [new Date(fl.DateCreated)]);
+		d.push([new Date(fl.DateCreated).toISOString]);
+
+		// d.sort();
+
+		// WScript.Echo(fl.DateCreated + "\n" + i);
+
+		// s.push(d[i]);
+
+		
+	}
+	return (d.join('\n'));
+}
+
+
+
+// проверка, есть файл или нет
+function isFileExists(filePath) {
+	if (objFSO.FileExists(filePath)){
+		return (true);
+	} else {
+		return (false);
+	}
+}
+
+// имя файла из полного пути
+// WScript.Echo(getFNameFromPath("c:/dssdf/sdfsf/sdff/sdfsf.345"));
+function getFNameFromPath(filePath) {
+
+	return filePath.split('\\').pop().split('/').pop();
+}
+
+function ShowFileLastModified(filespec)
+{
+	var f, s;
+	f = objFSO.GetFile(filespec);
+	s = filespec.toUpperCase() + "\n";
+	s += "Last Modified: " + f.DateLastModified;
+	return(s);
+}
+
+function ShowFileLastAccessed(filespec)
+{
+	var f, s;
+	f = objFSO.GetFile(filespec);
+	s = filespec.toUpperCase() + "\n";
+	s += "Last Accessed: " + f.DateLastAccessed;
+	return(s);
+}
+
+function ShowFileDateCreated(filespec)
+{
+	var f, s;
+	f = objFSO.GetFile(filespec);
+	s = "Created: " + f.DateCreated;
+	return(s);
 }
 
 

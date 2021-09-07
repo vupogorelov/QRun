@@ -1,0 +1,209 @@
+
+Nextmap: pro-q3dm6
+
+Accuracy info for: lii
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    14.2    1/7        1      0      0     0
+LightningGun:    38.8    7/18       1      0      0     0
+Railgun     :    25.0    2/8        0      1      0     0
+
+Damage Given: 279     Armor Taken : 100    (0 YA, 1 RA)
+Damage Recvd: 547     Health Taken: 145    (0 MH)
+
+
+Accuracy info for: Unna
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/3        0      0      0     0
+R.Launcher  :    39.6   21/53       4      3      0     0
+LightningGun:    29.1  272/933      5      7      0     0
+Railgun     :    41.1   21/51       3      8      0     0
+Plasmagun   :    52.0   26/50       3      0      0     0
+
+Damage Given: 5732    Armor Taken : 795    (15 YA, 0 RA)
+Damage Recvd: 5539    Health Taken: 695    (4 MH)
+
+
+Accuracy info for: NOOP
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :    33.3    2/6        1      0      0     0
+G.Launcher  :    20.0    1/5        0      0      0     0
+R.Launcher  :    20.0   20/100      1      2      0     0
+LightningGun:    47.6  387/813     14      4      0     0
+Railgun     :    53.4   54/101     15      8      0     0
+Plasmagun   :    50.0   12/24       0      1      0     0
+
+Damage Given: 9114    Armor Taken : 880    (13 YA, 2 RA)
+Damage Recvd: 5512    Health Taken: 545    (3 MH)
+
+
+Accuracy info for: Cyber_Psycho
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :     0.0    0/22       0      0      0     0
+R.Launcher  :    55.1   32/58       4      3      0     0
+LightningGun:    42.2  259/613      5      8      0     0
+Railgun     :    40.9   34/83      11      3      0     0
+Plasmagun   :    56.0   23/41       2      0      0     0
+
+Damage Given: 6709    Armor Taken : 570    (6 YA, 2 RA)
+Damage Recvd: 5208    Health Taken: 265    (1 MH)
+
+
+Accuracy info for: Nosorog rog rog
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/3        0      0      0     0
+R.Launcher  :    15.6    5/32       1      1      0     0
+LightningGun:    21.8   44/201      0      0      0     0
+Railgun     :    38.8    7/18       4      1      0     0
+Plasmagun   :     0.0    0/2        0      0      0     0
+
+Damage Given: 1264    Armor Taken : 410    (4 YA, 2 RA)
+Damage Recvd: 988     Health Taken: 115    (1 MH)
+
+
+Accuracy info for: unslashpidor
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :     0.0    0/16       0      1      0     0
+Railgun     :     0.0    0/4        0      1      0     0
+
+Damage Given: 0       Armor Taken : 0      (0 YA, 0 RA)
+Damage Recvd: 509     Health Taken: 25     (0 MH)
+
+
+Accuracy info for: S-Obichnaia Putana
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :     0.0    0/0        0      1      0     0
+LightningGun:    29.5   18/61       0      0      0     0
+
+Damage Given: 126     Armor Taken : 0      (0 YA, 0 RA)
+Damage Recvd: 292     Health Taken: 0      (0 MH)
+
+
+Accuracy info for: j@M&KO
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/1        0      0      0     0
+R.Launcher  :   100.0    2/2        1      2      0     0
+LightningGun:    16.6    1/6        0      0      0     0
+Railgun     :    30.0    3/10       0      0      0     0
+
+Damage Given: 530     Armor Taken : 100    (2 YA, 0 RA)
+Damage Recvd: 666     Health Taken: 0      (0 MH)
+
+
+Accuracy info for: (QooL)spirit
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :     0.0    0/0        0      1      0     0
+Shotgun     :     1.9    3/154      1      0      0     0
+G.Launcher  :     0.0    0/8        0      0      0     0
+R.Launcher  :    20.6   33/160      5      1      0     0
+LightningGun:    32.9  304/922      9      6      0     0
+Railgun     :    46.1   18/39       2      4      0     0
+Plasmagun   :     3.8    3/77       0      0      0     0
+
+Damage Given: 5816    Armor Taken : 1365   (16 YA, 5 RA)
+Damage Recvd: 5224    Health Taken: 785    (5 MH)
+
+
+Accuracy info for: Serca
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    12.5    2/16       0      0      0     0
+Railgun     :    50.0    2/4        1      0      0     0
+
+Damage Given: 249     Armor Taken : 0      (0 YA, 0 RA)
+Damage Recvd: 0       Health Taken: 0      (0 MH)
+
+
+Accuracy info for: oZ
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :     0.0    0/22       0      0      0     0
+G.Launcher  :     0.0    0/4        0      0      0     0
+R.Launcher  :    29.5   26/88       5      4      0     0
+LightningGun:    53.3   96/180      2      2      0     0
+Railgun     :    55.4   46/83      12      3      0     0
+Plasmagun   :     2.9    1/34       1      0      0     0
+
+Damage Given: 6802    Armor Taken : 690    (3 YA, 5 RA)
+Damage Recvd: 3943    Health Taken: 380    (1 MH)
+
+
+Accuracy info for: d.fault
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :     0.0    0/0        0      1      0     0
+G.Launcher  :     0.0    0/1        0      0      0     0
+R.Launcher  :    18.5   15/81       2      4      0     0
+LightningGun:    30.9  393/1268     6      8      0     0
+Railgun     :    48.5   17/35       2      7      0     0
+
+Damage Given: 4933    Armor Taken : 835    (8 YA, 4 RA)
+Damage Recvd: 6264    Health Taken: 95     (0 MH)
+
+
+Map: blackcathedral
+Time Remaining: 3:29
+
+Player          Kll Dth Sui Time FPM Eff     DG     DR  Score
+-------------------------------------------------------------
+NOOP             31  15   0   16   1  67   9114   5512     40
+(QooL)spirit     17  12   0   16   1  58   5816   5224     28
+Cyber_Psycho     22  14   0   16   1  61   6709   5208     25
+oZ               20   9   0   12   1  68   6802   3943     22
+Unna             15  18   0   16   0  45   5732   5539     19
+d.fault          10  20   0   16   0  33   4933   6264     14
+Nosorog rog rog   5   2   0    4   1  71   1264    988      7
+lii               2   1   0    2   1  66    279    547      2
+j@M&KO            1   2   0    1   1  33    530    666      1
+Serca             1   0   0    0   0 100    249      0      1
+S-Obichnaia Put   0   1   0    0   0   0    126    292      0
+unslashpidor      0   2   0    1   0   0      0    509      0
+
+Best Match Accuracies:
+WP    Acc Hits/Atts Kills Deaths
+------------------------------------------------------
+MG   33.3    2/6        1      0 NOOP
+SG    1.9    3/154      1      0 (QooL)spirit
+RL  100.0    2/2        1      2 j@M&KO
+LG   53.3   96/180      2      2 oZ
+RG   55.4   46/83      12      3 oZ
+PG   56.0   23/41       2      0 Cyber_Psycho
+Best 45.3  476/1049              NOOP
+
+Awards List:
+------------------------------------------------------
+Most Chat Frags             1    Unna
+Most Thaws                 11    (QooL)spirit
+Most Defense                2    NOOP
+Most Assists               11    (QooL)spirit
+Most Impressive            18    NOOP
+Most Excellent              1    (QooL)spirit
+Most Kills                 31    NOOP
+Best Efficiency         100.0    Serca
+Best Kill Streak           16    NOOP
+Best Skill               1039    NOOP
+
+
+Current time: 17:00:46 (20 Aug 2021)
+
+Dumped console text to stats/2021.08.20/140045.txt.

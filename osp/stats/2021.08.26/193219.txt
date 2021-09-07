@@ -1,0 +1,230 @@
+
+Nextmap: unitooldm4
+
+Accuracy info for: Flegy
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/2        0      1      0     0
+R.Launcher  :    31.6   43/136      5      1      0     0
+LightningGun:    13.7   56/406      4      4      0     0
+Railgun     :    23.5    4/17       0      8      0     0
+
+Damage Given: 3286    Armor Taken : 0      (0 YA, 0 RA)
+Damage Recvd: 5020    Health Taken: 300    (0 MH)
+
+
+Accuracy info for: NONAME
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :     0.0    0/0        0      1      0     0
+R.Launcher  :    26.0   32/123      7      3      0     0
+LightningGun:    31.3  109/348      3     12      0     0
+Railgun     :    42.2   19/45       6      1      0     0
+
+Damage Given: 4402    Armor Taken : 350    (1 YA, 3 RA)
+Damage Recvd: 5049    Health Taken: 75     (0 MH)
+
+
+Accuracy info for: e6aHyTblu
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :     0.0    0/1        0      0      0     0
+R.Launcher  :    31.5   48/152      2      5      0     0
+LightningGun:    29.4   81/275      1      5      0     0
+Railgun     :    39.6   23/58       6      6      0     0
+Plasmagun   :    12.5    2/16       0      0      0     0
+
+Damage Given: 5440    Armor Taken : 150    (3 YA, 0 RA)
+Damage Recvd: 5325    Health Taken: 175    (0 MH)
+
+
+Accuracy info for: Rightover
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/12       0      0      0     0
+R.Launcher  :    26.6   41/154      5      7      0     0
+LightningGun:    34.8  195/560      9      6      0     0
+Railgun     :    40.9   18/44       4      3      0     0
+Plasmagun   :     9.5    2/21       0      0      0     0
+
+Damage Given: 5714    Armor Taken : 350    (3 YA, 2 RA)
+Damage Recvd: 5519    Health Taken: 825    (7 MH)
+
+
+Accuracy info for: piupiu
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    11.1    3/27       0      1      0     0
+LightningGun:     6.3    3/47       0      0      0     0
+Railgun     :    42.8    6/14       3      0      0     0
+
+Damage Given: 839     Armor Taken : 50     (1 YA, 0 RA)
+Damage Recvd: 279     Health Taken: 25     (0 MH)
+
+
+Accuracy info for: Cyber_Psycho
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :     0.0    0/11       0      0      0     0
+G.Launcher  :     0.0    0/1        0      0      0     0
+R.Launcher  :     9.4    9/95       3      5      0     0
+LightningGun:    51.1  340/665      6      3      0     0
+Railgun     :    43.7   35/80       9      3      0     0
+
+Damage Given: 6030    Armor Taken : 350    (5 YA, 1 RA)
+Damage Recvd: 4377    Health Taken: 425    (4 MH)
+
+
+Accuracy info for: Yussi*Vatanen///
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :    40.0    2/5        1      0      0     0
+R.Launcher  :     6.0    2/33       1      5      0     0
+LightningGun:     0.0    0/0        0      3      0     0
+Railgun     :    18.1   10/55       1      4      0     0
+
+Damage Given: 1373    Armor Taken : 100    (0 YA, 1 RA)
+Damage Recvd: 3795    Health Taken: 150    (1 MH)
+
+
+Accuracy info for: smb333
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :     0.0    0/0        0      1      0     0
+G.Launcher  :     0.0    0/0        0      1      0     0
+R.Launcher  :    38.2   47/123      7      4      0     0
+LightningGun:    39.8   61/153      2      4      0     0
+Railgun     :    46.8   30/64       5      4      0     0
+Plasmagun   :     0.0    0/0        0      1      0     0
+
+Damage Given: 5763    Armor Taken : 400    (0 YA, 4 RA)
+Damage Recvd: 5057    Health Taken: 175    (0 MH)
+
+
+Accuracy info for: MOZG
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :     0.0    0/3        0      0      0     0
+Shotgun     :    13.6    3/22       0      0      0     0
+G.Launcher  :     0.0    0/0        0      1      0     0
+R.Launcher  :    42.0   29/69       6      5      0     0
+LightningGun:    34.7  130/374      0      3      0     0
+Railgun     :    47.9   23/48       7      5      0     0
+Plasmagun   :     0.0    0/3        0      0      0     0
+
+Damage Given: 4853    Armor Taken : 250    (3 YA, 1 RA)
+Damage Recvd: 4458    Health Taken: 125    (1 MH)
+
+
+Accuracy info for: sky
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Gauntlet    :     0.0    1/0        0      0      0     0
+G.Launcher  :     0.0    0/15       0      0      0     0
+R.Launcher  :    27.3   23/84       4      6      0     0
+LightningGun:    29.7  157/528      7      4      0     0
+Railgun     :    44.7   34/76       5      5      0     0
+
+Damage Given: 5252    Armor Taken : 700    (2 YA, 6 RA)
+Damage Recvd: 5603    Health Taken: 50     (0 MH)
+
+
+Accuracy info for: Torik
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/28       1      0      0     0
+R.Launcher  :    17.1   12/70       3      6      0     0
+LightningGun:    35.8  282/786      5      2      0     0
+Railgun     :    41.5   22/53       5      1      0     0
+
+Damage Given: 4900    Armor Taken : 400    (4 YA, 2 RA)
+Damage Recvd: 3180    Health Taken: 50     (0 MH)
+
+
+Accuracy info for: skilya
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :    12.1    4/33       0      0      0     0
+G.Launcher  :     4.8    3/62       1      0      0     0
+R.Launcher  :    29.0   25/86       3      3      0     0
+LightningGun:    28.1  243/864      8      5      0     0
+Railgun     :    38.8    7/18       1      6      0     0
+Plasmagun   :     0.0    0/2        0      0      0     0
+
+Damage Given: 4189    Armor Taken : 250    (1 YA, 2 RA)
+Damage Recvd: 5151    Health Taken: 500    (4 MH)
+
+
+Accuracy info for: (QooL)spirit
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :    13.6   15/110      1      0      0     0
+G.Launcher  :    12.0    6/50       0      0      0     0
+R.Launcher  :    22.4   46/205      7      5      0     0
+LightningGun:    37.9  337/889      8      2      0     0
+Railgun     :    48.7   19/39       2      6      0     0
+Plasmagun   :     4.1    8/191      1      0      0     0
+
+Damage Given: 7436    Armor Taken : 350    (1 YA, 3 RA)
+Damage Recvd: 5010    Health Taken: 250    (1 MH)
+
+
+Map: ts_ca1
+Time Remaining: 7:49
+
+Player          Kll Dth Sui Time FPM Eff     DG     DR  Score
+-------------------------------------------------------------
+(QooL)spirit     19  13   0   12   1  59   7436   5010     27
+smb333           14  15   0   12   1  48   5763   5057     22
+Rightover        18  16   0   12   1  52   5714   5519     22
+skilya           13  14   0   12   1  48   4189   5151     21
+sky              16  15   0   12   1  51   5252   5603     18
+Cyber_Psycho     18  11   0   12   1  62   6030   4377     18
+NONAME           16  17   0   12   1  48   4402   5049     17
+e6aHyTblu         9  16   0   12   0  36   5440   5325     17
+Torik            14   9   0    9   1  60   4900   3180     16
+MOZG             13  14   0    9   1  48   4853   4458     13
+Flegy             9  14   0   12   0  39   3286   5020     12
+Yussi*Vatanen//   3  12   0   10   0  20   1373   3795      7
+piupiu            3   1   0    2   1  75    839    279      3
+
+Best Match Accuracies:
+WP    Acc Hits/Atts Kills Deaths
+------------------------------------------------------
+SG   13.6   15/110      1      0 (QooL)spirit
+GL   40.0    2/5        1      0 Yussi*Vatanen///
+RL   42.0   29/69       6      5 MOZG
+LG   51.1  340/665      6      3 Cyber_Psycho
+RG   48.7   19/39       2      6 (QooL)spirit
+PG    4.1    8/191      1      0 (QooL)spirit
+Best 45.0  384/852               Cyber_Psycho
+
+Awards List:
+------------------------------------------------------
+Most Thaws                  8    (QooL)spirit
+Most Defense                2    sky
+Most Assists                8    (QooL)spirit
+Most Impressive             9    smb333
+Most Excellent              1    Rightover
+Most Kills                 19    (QooL)spirit
+Best Efficiency          75.0    piupiu
+Best Kill Streak            6    Cyber_Psycho
+Best Skill               1020    Cyber_Psycho
+
+
+Current time: 22:32:19 (26 Aug 2021)
+
+Dumped console text to stats/2021.08.26/193219.txt.

@@ -1,0 +1,28 @@
+
+easy_rails: :)
+
+Map: bloodister
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  *S*R*A*M*        15   4  12   0  0   9  61  5964  5471    0     19
+RED  easy_rails        8   0   7   1  0   4  50  3094  2684    0      7
+RED  HTF*Prog         10   2  18   1  0   5  10  4506  5545    0      2
+-----------------------------------------------------------------------
+RED  Totals           33   6  37   2  0  18  19 13564 13700    0      9
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE laggy mouse      19   2  13   0  0   8  61  5852  6007    0     21
+BLUE ebobo            13   3  16   0  0   5  50  5987  6238    0     16
+BLUE (QooL)spirit      5   0   4   1  0   2  50  1861  1319    0      4
+-----------------------------------------------------------------------
+BLUE Totals           37   5  33   1  0  15  23 13700 13564    0     10
+
+
+
+
+Current time: 01:36:37 (11 Apr 2021)
+
+Dumped console text to stats/2021.04.11/013638.txt.

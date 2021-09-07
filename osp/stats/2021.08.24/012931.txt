@@ -1,0 +1,40 @@
+
+Ranger: I can respect a shot like that, noname.
+
+Accuracy info for: NONAME
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+Shotgun     :                      0      0      3     0
+R.Launcher  :   53.0   52/98      16      0     12     0
+Plasmagun   :   26.0   19/73       4      0     11     0
+
+Damage Given: 3658   Armor Taken : 815 (8 RA)
+Damage Recvd: 642    Health Taken: 375
+
+Accuracy info for: Ranger
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+MachineGun  :   33.3   14/42       0      0
+Shotgun     :    0.0    0/22       0      0      7     3
+R.Launcher  :   21.0    8/38       0     16     10     8
+Plasmagun   :   66.6    2/3        0      4      3     2
+
+Damage Given: 642    Armor Taken : 185
+Damage Recvd: 3658   Health Taken: 325
+
+Map: Q3DM1
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+NONAME           20   0   0    4 273 100  3658   642     20
+Ranger            0  20   1    4   0   0   642  3658     -1
+
+
+
+
+Current time: 01:29:31 (24 Aug 2021)
+
+Dumped console text to stats/2021.08.24/012931.txt.

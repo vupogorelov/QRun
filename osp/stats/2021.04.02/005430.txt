@@ -1,0 +1,18 @@
+
+horny: luck
+horny: XD
+
+Map: q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+horny             1   0   0    0  68 100  2912  2728      1
+Prog              0   1   0    0   0   0  2728  2912      0
+
+
+
+
+Current time: 00:54:28 (02 Apr 2021)
+
+Dumped console text to stats/2021.04.02/005430.txt.

@@ -1,0 +1,204 @@
+
+[FREESTYLER]: AXAXAXAXA
+sky: :)
+(HoT)snow: )
+Nextmap: m4
+
+Accuracy info for: Flegy
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/18       0      1      0     0
+R.Launcher  :    40.2   39/97       2      3      0     0
+LightningGun:    14.6   99/675      2      3      0     0
+Railgun     :    14.2    1/7        0      7      0     0
+Plasmagun   :     0.0    0/0        0      1      0     0
+
+Damage Given: 2751    Armor Taken : 500    (2 YA, 3 RA)
+Damage Recvd: 4945    Health Taken: 345    (1 MH)
+
+
+Accuracy info for: NONAME
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/1        0      0      0     0
+R.Launcher  :    24.6   20/81       5      2      0     0
+LightningGun:    28.7   57/198      4      1      0     0
+Railgun     :    36.8    7/19       4      1      0     0
+
+Damage Given: 2145    Armor Taken : 150    (3 YA, 0 RA)
+Damage Recvd: 1551    Health Taken: 90     (0 MH)
+
+
+Accuracy info for: e6aHyTblu
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    14.2    2/14       0      0      0     0
+Railgun     :    14.2    1/7        0      0      0     0
+
+Damage Given: 132     Armor Taken : 0      (0 YA, 0 RA)
+Damage Recvd: 36      Health Taken: 130    (1 MH)
+
+
+Accuracy info for: Rightover
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :    20.0    1/5        1      0      0     0
+G.Launcher  :     0.0    0/46       0      0      0     0
+R.Launcher  :    26.4   40/151      4      2      0     0
+LightningGun:    36.9  112/303      6      4      0     0
+Railgun     :    44.1   19/43       3      4      0     0
+
+Damage Given: 5201    Armor Taken : 550    (3 YA, 4 RA)
+Damage Recvd: 4296    Health Taken: 780    (3 MH)
+
+
+Accuracy info for: (HoT)snow
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :    45.4    5/11       0      1      0     0
+G.Launcher  :     5.0    2/40       0      1      0     0
+R.Launcher  :    22.6   37/163      5      4      0     0
+LightningGun:    29.7  295/991      5      5      0     0
+Railgun     :    39.2   33/84       7     11      0     0
+
+Damage Given: 6910    Armor Taken : 915    (5 YA, 6 RA)
+Damage Recvd: 7211    Health Taken: 740    (4 MH)
+
+
+Accuracy info for: smb333
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+R.Launcher  :    37.3   34/91       1      4      0     0
+LightningGun:    37.3   40/107      0      6      0     0
+Railgun     :    43.8   25/57       8      1      0     0
+
+Damage Given: 4491    Armor Taken : 505    (6 YA, 2 RA)
+Damage Recvd: 4312    Health Taken: 675    (0 MH)
+
+
+Accuracy info for: [FREESTYLER]
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :     0.0    0/34       0      0      0     0
+Shotgun     :     4.5    2/44       0      0      0     0
+G.Launcher  :     4.7    2/42       0      1      0     0
+R.Launcher  :     6.8   18/261      0      3      0     0
+LightningGun:    14.7   38/257      1      4      0     0
+Railgun     :    11.4    4/35       2      6      0     0
+Plasmagun   :     4.6   18/386      1      0      0     0
+
+Damage Given: 1944    Armor Taken : 515    (4 YA, 2 RA)
+Damage Recvd: 4611    Health Taken: 210    (0 MH)
+
+
+Accuracy info for: sky
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     0.0    0/74       0      1      0     0
+R.Launcher  :    26.8   37/138      3      6      0     0
+LightningGun:    29.7  177/595      5      6      0     0
+Railgun     :    48.5   51/105      9      8      0     0
+Plasmagun   :    15.7    3/19       0      0      0     0
+
+Damage Given: 8082    Armor Taken : 1385   (3 YA, 12 RA)
+Damage Recvd: 7361    Health Taken: 700    (3 MH)
+
+
+Accuracy info for: skilya
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Shotgun     :    27.6   79/286      0      0      0     0
+G.Launcher  :     9.0    8/88       1      0      0     0
+R.Launcher  :    26.1   22/84       3      1      0     0
+LightningGun:    23.5  180/763      5      3      0     0
+Railgun     :    34.8   15/43       6      7      0     0
+Plasmagun   :     3.4    5/143      0      0      0     0
+
+Damage Given: 5287    Armor Taken : 485    (5 YA, 1 RA)
+Damage Recvd: 4931    Health Taken: 900    (1 MH)
+
+
+Accuracy info for: Cybra
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+G.Launcher  :     8.3    1/12       0      0      0     0
+R.Launcher  :    18.1   22/121      4      1      0     0
+LightningGun:    48.6  257/528      6      4      0     0
+Railgun     :    71.4   80/112     25      4      0     0
+Plasmagun   :    61.1   11/18       1      0      0     0
+
+Damage Given: 10433   Armor Taken : 465    (8 YA, 0 RA)
+Damage Recvd: 5164    Health Taken: 1375   (5 MH)
+
+
+Accuracy info for: (HoT)spirit
+
+Weapon         Accrcy Hits/Atts Kills Deaths Pickup Drops
+---------------------------------------------------------
+Machinegun  :     0.0    0/0        0      1      0     0
+Shotgun     :     5.4   12/220      1      0      0     0
+G.Launcher  :     5.2   12/228      1      0      0     0
+R.Launcher  :    20.2   58/287      7      2      0     0
+LightningGun:    34.7  239/688      8      3      0     0
+Railgun     :    77.7   21/27       6      3      0     0
+Plasmagun   :     0.0    0/30       0      0      0     0
+
+Damage Given: 7163    Armor Taken : 925    (8 YA, 5 RA)
+Damage Recvd: 5037    Health Taken: 1360   (8 MH)
+
+
+Map: uberkill
+Time Remaining: 0:00
+
+Player          Kll Dth Sui Time FPM Eff     DG     DR  Score
+-------------------------------------------------------------
+Cybra            36   9   0   20   1  80  10433   5164     52
+(HoT)spirit      23   9   0   20   1  71   7163   5037     29
+(HoT)snow        17  22   0   20   0  43   6910   7211     27
+sky              17  21   0   20   0  44   8082   7361     22
+skilya           15  11   0   20   0  57   5287   4931     21
+Rightover        14  10   0   13   1  58   5201   4296     19
+NONAME           13   4   0    7   1  76   2145   1551     17
+smb333            9  11   0   13   0  45   4491   4312     10
+Flegy             4  15   0   15   0  21   2751   4945      7
+[FREESTYLER]      4  14   0   20   0  22   1944   4611      4
+e6aHyTblu         0   0   0    2   0   0    132     36      3
+
+Best Match Accuracies:
+WP    Acc Hits/Atts Kills Deaths
+------------------------------------------------------
+MG   20.0    1/5        1      0 Rightover
+SG    5.4   12/220      1      0 (HoT)spirit
+GL    9.0    8/88       1      0 skilya
+RL   40.2   39/97       2      3 Flegy
+LG   48.6  257/528      6      4 Cybra
+RG   77.7   21/27       6      3 (HoT)spirit
+PG   61.1   11/18       1      0 Cybra
+Best 46.9  371/791               Cybra
+
+Awards List:
+------------------------------------------------------
+Most Thaws                 16    Cybra
+Most Defense                2    (HoT)spirit
+Most Assists               16    Cybra
+Most Impressive            31    Cybra
+Most Excellent              1    (HoT)spirit
+Most Kills                 36    Cybra
+Best Efficiency          80.0    Cybra
+Best Kill Streak           12    Cybra
+Best Skill               1062    Cybra
+
+
+Current time: 22:18:09 (26 Aug 2021)
+
+Dumped console text to stats/2021.08.26/191809.txt.

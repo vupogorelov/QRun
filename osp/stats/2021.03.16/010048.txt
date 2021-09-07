@@ -1,0 +1,16 @@
+
+
+Map: q3arenax
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+HTF*Howie         1   0   0    0  84 100  2928  1776      1
+HTF*Prog          0   1   0    0   0   0  1776  2928      0
+
+
+
+
+Current time: 01:00:46 (16 Mar 2021)
+
+Dumped console text to stats/2021.03.16/010048.txt.

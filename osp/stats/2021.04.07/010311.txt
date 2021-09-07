@@ -1,0 +1,29 @@
+
+*S*R*A*M*: gg...
+HTF*Prog: :)
+*S*R*A*M*: gg...
+
+Map: ztn3tourney1
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  *S*R*A*M*        10   6   7   0  0   9  69  4367  3805    0     16
+RED  drZORGE          11   2   7   1  0   9  63  3425  3169    0     12
+RED  .....             3   2  10   0  0   8  33  1460  3696    0      5
+-----------------------------------------------------------------------
+RED  Totals           24  10  24   1  0  26  29  9252 10670    0     10
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE HTF*Prog          9   1  13   0  0   2  43  4767  4235    0     10
+BLUE 7+                0   0   1   0  0   0   0   342   365    0      0
+-----------------------------------------------------------------------
+BLUE Totals            9   1  14   0  0   2  22  5109  4600    0      4
+
+
+
+
+Current time: 01:03:10 (07 Apr 2021)
+
+Dumped console text to stats/2021.04.07/010311.txt.

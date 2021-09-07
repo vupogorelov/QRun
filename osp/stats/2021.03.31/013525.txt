@@ -1,0 +1,15 @@
+
+
+Map: pro-q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+Progggg           0   0   0   15   0   0     0     0      0
+
+
+
+
+Current time: 01:35:25 (31 Mar 2021)
+
+Dumped console text to stats/2021.03.31/013525.txt.

@@ -1,0 +1,23 @@
+
+
+Map: q3dm17
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Dth Sui TK NET Eff    DG    DR   TD  Score
+-------------------------------------------------------------------
+RED  HTF*Prog         10  14   1  0  -5  39  2472  2391    0      9
+-------------------------------------------------------------------
+RED  Totals           10  14   1  0  -5  39  2472  2391    0      9
+
+TEAM Player          Kll Dth Sui TK NET Eff    DG    DR   TD  Score
+-------------------------------------------------------------------
+BLUE xz               14  10   1  0   3  56  2391  2472    0     13
+-------------------------------------------------------------------
+BLUE Totals           14  10   1  0   3  56  2391  2472    0     13
+
+
+
+
+Current time: 01:25:40 (23 Apr 2021)
+
+Dumped console text to stats/2021.04.23/012540.txt.

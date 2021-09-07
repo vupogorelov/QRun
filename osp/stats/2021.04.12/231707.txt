@@ -1,0 +1,43 @@
+
+SUS!: huinya a ne match
+SUS!: huinya a ne match
+
+Map: servitude
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  PooP             14  14  16   0  0   3  63  4550  5162    0     28
+RED  *S*R*A*M*        20   8  21   0  4   3  53  4881  6134  400     24
+RED  NONAME           14   5  18   0  0   3  51  5241  5445    0     19
+RED  |                16   5   9   1  3   3  65  4936  3339  300     17
+RED  3a_6aTbky!       12   4  15   0  0   3  51  4200  4794    0     16
+RED  SUS!              7   8  18   0  1   3  47  3276  5195  100     16
+RED  perfect enemy    12   4  16   1  0   1  48  3518  4722    0     15
+RED  billybb          11   1  19   0  0   2  38  3222  5255    0     12
+RED  HTF*Prog          9   0  17   0  0   4  34  3523  4917    0      9
+RED  Valhalla          3   6  18   0  1   3  30  1895  5494  100      8
+-----------------------------------------------------------------------
+RED  Totals          118  55 167   2  9  28   2 39242 50457  900      4
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE DOOP             37  10  11   0  0   8  81  9685  4077    0     47
+BLUE Fairlie          24  11  10   1  0   9  77  6811  3739    0     34
+BLUE ///Mus1n*        26   8  11   0  0  10  75  7622  4087    0     34
+BLUE Kabal            24   5  11   0  0   8  72  6447  3495    0     29
+BLUE Pzdc             14   9  13   0  2   9  61  3778  3969  200     21
+BLUE GG               12   7  13   0  0   8  59  4666  4689    0     19
+BLUE l o x            15   0  11   0  0   7  57  3676  3589    0     15
+BLUE IVIpaK            8   5  13   0  0   8  50  4283  4355    0     13
+BLUE ShaggyOwl         6   5   5   1  0   6  66  2150  1993    0     10
+BLUE TOPMO3            2   2  16   0  0   8  20  1538  5208    0      4
+-----------------------------------------------------------------------
+BLUE Totals          168  62 114   2  2  81   8 50656 39201  200     10
+
+
+
+
+Current time: 23:17:07 (12 Apr 2021)
+
+Dumped console text to stats/2021.04.12/231707.txt.

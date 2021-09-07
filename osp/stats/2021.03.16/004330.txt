@@ -1,0 +1,16 @@
+
+
+Map: pro-q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+Howie             1   0   0    1  49 100  2867  1029      1
+DogeCoin          0   1   0    1   0   0  1029  2867      0
+
+
+
+
+Current time: 00:43:28 (16 Mar 2021)
+
+Dumped console text to stats/2021.03.16/004330.txt.

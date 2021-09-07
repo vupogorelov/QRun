@@ -1,0 +1,16 @@
+
+
+Map: pro-q3dm6
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+HTF*Prog          1   0   0    1  43 100  2829  2813      1
+PORNO             0   1   0    1   0   0  2813  2829      0
+
+
+
+
+Current time: 02:04:24 (19 May 2021)
+
+Dumped console text to stats/2021.05.19/020426.txt.

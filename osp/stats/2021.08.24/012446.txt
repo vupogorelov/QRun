@@ -1,0 +1,40 @@
+
+
+Accuracy info for: NONAME
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+MachineGun  :   40.0   38/95       0      0
+Shotgun     :                      0      8      1     0
+R.Launcher  :   33.3    4/12       1      3      3     1
+Plasmagun   :                      0      9      1     0
+
+Damage Given: 505    Armor Taken : 100 (1 RA)
+Damage Recvd: 2630   Health Taken: 0
+
+Accuracy info for: Ranger
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+MachineGun  :    8.3    1/12       0      0
+Shotgun     :   42.2   79/187      8      0      4     1
+R.Launcher  :   63.1   12/19       3      1     10     0
+Plasmagun   :   57.2   59/103      9      0      7     0
+
+Damage Given: 2630   Armor Taken : 595 (4 RA)
+Damage Recvd: 505    Health Taken: 125
+
+Map: Q3DM1
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+Ranger           20   1   0    5 236  95  2630   505     20
+NONAME            1  20   0    5  11   4   505  2630      1
+
+
+
+
+Current time: 01:24:46 (24 Aug 2021)
+
+Dumped console text to stats/2021.08.24/012446.txt.

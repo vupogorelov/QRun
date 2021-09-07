@@ -1,0 +1,33 @@
+
+drgs'r'bad: kurwa
+
+Map: oxodm68
+Time Remaining: MATCH COMPLETE
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+RED  SALO POWER       19   2  12   0  0   9  63  6952  4126    0     21
+RED  *S*R*A*M*        13   5  13   0  0   7  58  4743  4285    0     18
+RED  drgs'r'bad       12   1  17   0  0   7  43  4332  5738    0     13
+RED  TRE               7   2  16   1  0   6  38  3792  5192    0     10
+RED  HTF*Prog          7   2   7   1  0   5  53  1569  1980    0      8
+-----------------------------------------------------------------------
+RED  Totals           58  12  65   2  0  34  12 21388 21321    0      9
+
+TEAM Player          Kll Thw Dth Sui TK WIN Eff    DG    DR   TD  Score
+-----------------------------------------------------------------------
+BLUE kekul'           22   2  12   0  0  10  66  7207  4243    0     24
+BLUE snow             14   4  14   0  0   7  56  3799  5529    0     18
+BLUE -                14   0  16   0  0   6  46  5421  4712    0     14
+BLUE n8Neko          11   2  11   0  0   9  54  4107  4142    0     13
+BLUE ShaggyOwl         2   1   1   1  0   2  66   488   380    0      2
+BLUE Ray               1   0   3   1  0   0   0   477   874    0      0
+-----------------------------------------------------------------------
+BLUE Totals           64   9  57   2  0  34  14 21499 19880    0     10
+
+
+
+
+Current time: 00:16:30 (23 Apr 2021)
+
+Dumped console text to stats/2021.04.23/001630.txt.

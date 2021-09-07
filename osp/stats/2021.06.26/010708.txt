@@ -1,0 +1,77 @@
+
+
+Accuracy info for: HTF*Prog
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+Gauntlet    :    0.0    1/0        0      0
+MachineGun  :   19.4   38/195      2      0
+Shotgun     :                      0      3      2     0
+R.Launcher  :   25.0    6/24       1      1      5     2
+Railgun     :   25.0    2/8        1      0      2     0
+Plasmagun   :                      0      2      1     0
+
+Damage Given: 803    Armor Taken : 200 (4 YA)
+Damage Recvd: 840    Health Taken: 225 (2 MH)
+
+Accuracy info for: Daemia
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+MachineGun  :    3.0    1/33       0      2
+Shotgun     :   26.3  113/429      6      6     27     5
+G.Launcher  :                      0      0      6     0
+R.Launcher  :   14.8    4/27       0      1     16     2
+LightningGun:   23.4   41/175      1      1      4     1
+Railgun     :   25.0    3/12       1      1      8     1
+Plasmagun   :   15.9   45/282      4      1     18     3
+
+Damage Given: 2761   Armor Taken : 16130 (11 YA, 6 RA)
+Damage Recvd: 2578   Health Taken: 10395 (1 MH)
+
+Accuracy info for: Hunter
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+MachineGun  :   21.4    9/42       2      0
+Shotgun     :   20.6   93/451      6      8     30     7
+G.Launcher  :                      0      0      7     0
+R.Launcher  :    0.0    0/6        0      1      6     0
+LightningGun:   37.0   63/170      1      0      8     2
+Railgun     :    0.0    0/5        0      1      7     0
+Plasmagun   :    9.4    7/74       0      2     12     2
+
+Damage Given: 1610   Armor Taken : 14260 (9 YA, 3 RA)
+Damage Recvd: 2567   Health Taken: 15645 (4 MH)
+
+Accuracy info for: Sorlag
+
+Weapon        Accrcy Hits/Atts Kills Deaths Pickup Drops
+--------------------------------------------------------
+MachineGun  :   20.5    7/34       0      1
+Shotgun     :   40.1  168/418      9      4     22     2
+G.Launcher  :                      0      0      2     0
+R.Launcher  :   17.3    4/23       2      0     12     0
+LightningGun:   41.3   24/58       0      1      3     1
+Railgun     :   36.3    4/11       1      1     12     1
+Plasmagun   :   37.1   26/70       2      1     15     3
+
+Damage Given: 3074   Armor Taken : 19635 (13 YA, 1 RA)
+Damage Recvd: 2219   Health Taken: 12225 (3 MH)
+
+Map: q3dm12
+Time Remaining: MATCH COMPLETE
+
+Player          Kll Dth Sui Time FPH Eff    DG    DR  Score
+-----------------------------------------------------------
+Sorlag           14   8   0   15  55  63  3074  2219     14
+Daemia           12  12   3   15  35  42  2761  2578      9
+Hunter            9  12   1   15  31  40  1610  2567      8
+HTF*Prog          4   6   0   14  16  40   803   840      4
+
+
+
+
+Current time: 01:07:04 (26 Jun 2021)
+
+Dumped console text to stats/2021.06.26/010708.txt.
